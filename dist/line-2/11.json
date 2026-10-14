@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "Receipts Follow Old Cords",
+  "image": "https://api.imd.fun/artifacts/388078c51619aa2812efb46d47cc30ea6b3cbf05dd0dc6f328e66944314e4778",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 11
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Receipt Exposure"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Seeds fill an open pouch while old cords still reach it."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

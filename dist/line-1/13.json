@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Measured Return","image":"https://api.imd.fun/artifacts/38844a51cc6e7b0f78ce89264c0b1d99587f75a73dbd011dd9c1349d3663d0bd","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":13},{"trait_type":"Left behind","value":"ZTO Drift"},{"trait_type":"Meaning","value":"Two bowls compare an earlier ZTO/IMD minimum with a later pool observation."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

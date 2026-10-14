@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Same Stone Twice",
+  "image": "https://api.imd.fun/artifacts/1255ca0ce179f1e5078391c05ea429afd55077252406af73d1d1b7294dde14c3",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 2
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Changes"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe compares two stones before trusting the path between them."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
     }
   ]
 }

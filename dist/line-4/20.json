@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Covered Embers",
+  "image": "https://api.imd.fun/artifacts/4065148239bbff31a4c8d6d8569b0f30924e43ba349b117f45fd274551475e3d",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 20
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Gas Cap Rehearsal"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A charcoal cover bounds the embers before their heat is trusted."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Rehearse Ethereum contract calls before submission"
     }
   ]
 }

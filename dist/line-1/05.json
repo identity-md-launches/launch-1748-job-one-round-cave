@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Last Complete Pebble","image":"https://api.imd.fun/artifacts/015b98844caa0357c05cd8988e61a18cd671b9be825f7f7de9e201d320e5ae13","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":5},{"trait_type":"Left behind","value":"ZTO Capacity"},{"trait_type":"Meaning","value":"Pepe finds the last input the observed pool path can fully estimate within a chosen bound."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Two Pebbles Reviewed","image":"https://api.imd.fun/artifacts/a6da70cce38d07e463256e9f0c4be14ddc0cb09fcc7b9b8f30e5b295944bdb58","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":7},{"trait_type":"Left behind","value":"ZTO Review"},{"trait_type":"Meaning","value":"Two guarded pebbles show Pepe checking a swap bound against the evidence and settings a worker chose."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

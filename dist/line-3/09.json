@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Hidden Entrances",
+  "image": "https://api.imd.fun/artifacts/0c0e6c3a4885b85fdc0286fdb3c1b0a60429ce05204b9f250ac6e3035f4c900b",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 9
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Surface"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe studies the possible entrances hidden in the stone."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
     }
   ]
 }

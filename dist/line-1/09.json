@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Verified Stone Handoff","image":"https://api.imd.fun/artifacts/81616eefe73979fa87676409f723f84f7a0cb6cfeb4f79496e90979969e15d9d","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":9},{"trait_type":"Left behind","value":"ZTO Handoff Verifier"},{"trait_type":"Meaning","value":"A sealed stone tablet and three pebbles keep a reviewed ZTO/IMD bound intact across a handoff."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

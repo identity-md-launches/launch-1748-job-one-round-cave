@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Matched Stone Seals","image":"https://api.imd.fun/artifacts/074a292084bbcd48729e4644c4cc309a5d9dfb8ae43906fd8d4db18a31632163","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":10},{"trait_type":"Left behind","value":"ZTO Evidence Verifier"},{"trait_type":"Meaning","value":"Two paired seals show that a ZTO/IMD planning handoff was rebuilt from its reviewed evidence."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

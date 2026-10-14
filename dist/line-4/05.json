@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Fitting Seed","image":"https://api.imd.fun/artifacts/f37068160082fc2459acdb867c9edd9a9aa80963e64004cc398147cdb8f03276","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 4"},{"trait_type":"Number","value":5},{"trait_type":"Left behind","value":"Call Expectation"},{"trait_type":"Meaning","value":"Pepe places a seed in a bowl to test whether what returns fits what was intended."},{"trait_type":"One thing","value":"Rehearse Ethereum contract calls before submission"}]}

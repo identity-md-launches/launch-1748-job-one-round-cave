@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "Every Pebble Held",
+  "image": "https://api.imd.fun/artifacts/723ebfca90b168dca8d5e6a26b72105142d465b4c1f29a7a0cd72927374c5474",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 9
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Draft Bundle"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "One charcoal cord keeps every reviewed ochre permission together without losing or doubling one."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

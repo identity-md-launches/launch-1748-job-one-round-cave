@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Open Arch","image":"https://api.imd.fun/artifacts/023e5e52c7c97ade61058ad05c53624e60f3008c27526aeea44f454ec2d0b1ef","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 4"},{"trait_type":"Number","value":14},{"trait_type":"Left behind","value":"Release Gate"},{"trait_type":"Meaning","value":"An open arch and one pebble mark one exact call released only after a fresh set check."},{"trait_type":"One thing","value":"Rehearse Ethereum contract calls before submission"}]}

@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Opened Shell","image":"https://api.imd.fun/artifacts/78e312294005e3307bcbe93d0b23c19c3fad7a58cded5722fc8b795b662903c2","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 4"},{"trait_type":"Number","value":9},{"trait_type":"Left behind","value":"Return Lens"},{"trait_type":"Meaning","value":"Pepe opens an ochre shell to reveal the meaning held inside a call result."},{"trait_type":"One thing","value":"Rehearse Ethereum contract calls before submission"}]}

@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Crossed Ceiling",
+  "image": "https://api.imd.fun/artifacts/e1c40eb7b5c9da17cb401992ec03baadcc766ca31b38cc8bc8a5c827bc4e601f",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 15
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Permission Policy Transition"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre stones share a charcoal cord beneath a broken chalk ceiling."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

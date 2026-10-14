@@ -1,10 +1,12 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Reviewed Ring",
+  "image": "https://api.imd.fun/artifacts/ca738455f059296397505581b8fa1933285fa14b174b7e4a123ef78f51fed7b0",
   "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
+    {"trait_type": "Cave", "value": "Moss"},
+    {"trait_type": "Wall", "value": "Line 3"},
+    {"trait_type": "Number", "value": 20},
+    {"trait_type": "Left behind", "value": "Code Frontier Review"},
+    {"trait_type": "Meaning", "value": "Pepe circles only the stones whose code he can prove and match."},
+    {"trait_type": "One thing", "value": "Ethereum executable code identity"}
   ]
 }

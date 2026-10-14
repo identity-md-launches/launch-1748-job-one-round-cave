@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Checked Pair","image":"https://api.imd.fun/artifacts/4e6d1cdd13d5a0109e3b76bdf26b2e075af323198885a0aeafa6db6dd34010b2","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":15},{"trait_type":"Left behind","value":"ZTO Target Check"},{"trait_type":"Meaning","value":"Two enclosed pebbles pair a claimed ZTO input with the evidence and choices that verify its IMD minimum."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

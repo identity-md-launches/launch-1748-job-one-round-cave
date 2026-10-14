@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "Together Under a New Sun",
+  "image": "https://api.imd.fun/artifacts/35818a6ac25c19d7043d58dba15b6efb5cdc3976d6f8731b05a665e853764c10",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 10
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Bundle Refresh"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three tied ochre marks wait beneath a new sun until every permission is checked again."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

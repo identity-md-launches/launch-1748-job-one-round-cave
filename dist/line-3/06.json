@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Reviewed Stone",
+  "image": "https://api.imd.fun/artifacts/ea9248dd84c6c542aee27976baaffc145aabfacf2281c286f4c444e74ec46a31",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 6
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe circles a familiar stone to mark the code he has reviewed."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
     }
   ]
 }

@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Narrowed Cord",
+  "image": "https://api.imd.fun/artifacts/b344024425efb8cadb4776d494c12bd22e0b3c4b5dcf43eb6745696087238448",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 12
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Allowance Caps"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A pale stone pinches the cord reaching a seeded pouch."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Two Spenders",
+  "image": "https://api.imd.fun/artifacts/74779548629d6ae67eaeb8e8ac7f1452a396878ca7b606c34b3d9fd753aab493",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 16
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Allowance Spender Code"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two permissions lead to an empty stone and a dark stone at one remembered moment."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

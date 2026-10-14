@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Two Eyes, One Stone","image":"https://api.imd.fun/artifacts/d591812e0147cff0e226b0a9323b285c0d1e8fe18e9fbb2bd4ec947375357b44","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":16},{"trait_type":"Left behind","value":"ZTO Witness"},{"trait_type":"Meaning","value":"Two Pepe witnesses compare one stone before trusting its swap bound."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

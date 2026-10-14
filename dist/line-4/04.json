@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Fixed Stone","image":"https://api.imd.fun/artifacts/ab7d97ec7725f46784e68707d69ab3ab7a2f17b42600cbe1c38a0d3a502d4da3","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 4"},{"trait_type":"Number","value":4},{"trait_type":"Left behind","value":"Call Witness"},{"trait_type":"Meaning","value":"Pepe leaves one marked stone for a call that two watchers can repeat at the same block."},{"trait_type":"One thing","value":"Rehearse Ethereum contract calls before submission"}]}

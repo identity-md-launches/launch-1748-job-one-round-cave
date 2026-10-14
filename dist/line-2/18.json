@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Bound Pair",
+  "image": "https://api.imd.fun/artifacts/7ad56676db544c2a9e77be3a8488880b8f7347e48e42a1013c98c8296da823e9",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Allowance Code Context"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two looped stones bind spending permission to code at the same remembered moment."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

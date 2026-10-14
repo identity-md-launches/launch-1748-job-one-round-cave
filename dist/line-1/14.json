@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Reached Pebble","image":"https://api.imd.fun/artifacts/1268dbcf3c6042534e7b53a2488fd0f57f5c809b6e0fe118cf737cffff831171","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":14},{"trait_type":"Left behind","value":"ZTO Target"},{"trait_type":"Meaning","value":"A pebble reaches the threshold at the smallest complete ZTO input that meets a chosen IMD output."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

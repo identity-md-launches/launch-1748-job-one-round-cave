@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Stone Skin",
+  "image": "https://api.imd.fun/artifacts/fb03d5101c2d4a196268a027421a3982381f95fdc6545f7f83f0638b8a0590b6",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 11
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Metadata"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe looks beneath the skin of a code stone."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
     }
   ]
 }

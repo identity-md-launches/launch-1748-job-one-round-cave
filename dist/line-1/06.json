@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Two Stones Reconnected","image":"https://api.imd.fun/artifacts/12c0b65b91781f55da4c19ebd5c7d16ab09e4d3597cbed8ee7a986068b7e6940","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":6},{"trait_type":"Left behind","value":"ZTO Refresh"},{"trait_type":"Meaning","value":"Pepe reconnects a worker to pinned real-pool swap checks without mistaking a relay for its source."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

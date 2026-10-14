@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Code Split",
+  "image": "https://api.imd.fun/artifacts/e9ca37a6bcf6743e3368f4c33fa38aacaa9fb124662bd832d2c3d12882148724",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 17
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Allowance Code Delta"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A split stone compares remembered code without calling absence a revocation."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

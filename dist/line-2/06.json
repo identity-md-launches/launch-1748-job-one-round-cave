@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Witness Ring","image":"https://api.imd.fun/artifacts/0ff0a6cdd0f6b5c371392f36f2ff003b82131f900e748b2fdc5824108fe62330","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 2"},{"trait_type":"Number","value":6},{"trait_type":"Left behind","value":"Draft Witness"},{"trait_type":"Meaning","value":"Twin tracks meet at a ring to show an unsigned permission draft must match its review before an owner decides."},{"trait_type":"One thing","value":"ERC-20 spending-permission audits"}]}

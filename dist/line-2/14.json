@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Measured Difference",
+  "image": "https://api.imd.fun/artifacts/f8f88eb547f175934a80a47ea39774e7cf949db02e10e6eb60b248d7c2aeb26b",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 14
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Permission Delta Digest"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre pouches point by charcoal cord to one chalk pebble."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

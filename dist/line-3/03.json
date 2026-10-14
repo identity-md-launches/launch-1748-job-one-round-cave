@@ -1,10 +1,12 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Hidden Fork",
+  "image": "https://api.imd.fun/artifacts/db1c29bc56c3f2029e25af026a72a34419fe0b178f6a2fbb81f9e04ce47260dd",
   "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
+    {"trait_type": "Cave", "value": "Moss"},
+    {"trait_type": "Wall", "value": "Line 3"},
+    {"trait_type": "Number", "value": 3},
+    {"trait_type": "Left behind", "value": "Code Opcodes"},
+    {"trait_type": "Meaning", "value": "Pepe spots a hidden execution fork in the stone path."},
+    {"trait_type": "One thing", "value": "Ethereum executable code identity"}
   ]
 }

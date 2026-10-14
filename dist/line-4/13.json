@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Cooling Ember","image":"https://api.imd.fun/artifacts/c2e109856ccb4b495333ebc6150000725aa48dc75baa6f3cb7b4472c007b7afa","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 4"},{"trait_type":"Number","value":13},{"trait_type":"Left behind","value":"Set Expiry"},{"trait_type":"Meaning","value":"A cooling ember marks the chosen time limit on a complete set of rehearsed calls."},{"trait_type":"One thing","value":"Rehearse Ethereum contract calls before submission"}]}

@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Stone Beyond",
+  "image": "https://api.imd.fun/artifacts/2bd990549a24fbb2123c6f1a9be7845a7fdeea0ca734d316afaec675de0e3ae2",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 13
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Calls"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe looks beyond one stone to the other stone it calls."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
     }
   ]
 }

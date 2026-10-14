@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "Measured Bowls",
+  "image": "https://api.imd.fun/artifacts/10b86b824f774fbe0d0ec55363094aa33721916074c8486e95fe2e21068bdc3d",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 3
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "ZTO Sizes"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe measures three trade sizes beneath a shelter that guards the output."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"
     }
   ]
 }

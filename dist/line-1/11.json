@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"Carried Bound Bundle","image":"https://api.imd.fun/artifacts/4632ab402b4eeec7c8ff6fa7cbaa4a8ac55f2853f74da80f711d57a1ea61bdae","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 1"},{"trait_type":"Number","value":11},{"trait_type":"Left behind","value":"ZTO Handoff Saver"},{"trait_type":"Meaning","value":"A bound bundle and stone seal carry one freshly reviewed ZTO/IMD planning handoff without turning it into a trade."},{"trait_type":"One thing","value":"Calculate ZTO/IMD swap bounds from real Uniswap v4 liquidity"}]}

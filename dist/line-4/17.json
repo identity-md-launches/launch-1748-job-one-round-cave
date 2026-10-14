@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Winding Rehearsal","image":"https://api.imd.fun/artifacts/d2d2b075e872f28c1971ceb0d2443906d613309fb396bfa203d49f4ced6717b2","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 4"},{"trait_type":"Number","value":17},{"trait_type":"Left behind","value":"Rehearsal Report"},{"trait_type":"Meaning","value":"A winding charcoal path reaches a white stone, showing a contract call understood before it is sent."},{"trait_type":"One thing","value":"Rehearse Ethereum contract calls before submission"}]}

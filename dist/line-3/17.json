@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Bound Stone",
+  "image": "https://api.imd.fun/artifacts/38eb883043aecd11679daa4fe2eaa5d3ac8ed37f00297fa1cab72612e598272c",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 17
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Target Proofs"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe binds a discovered call stone to its proven historical root."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
     }
   ]
 }

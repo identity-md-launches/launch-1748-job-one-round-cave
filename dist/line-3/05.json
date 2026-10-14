@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "Linked Stones",
+  "image": "https://api.imd.fun/artifacts/4a8166436a1cc3fa4931f384f29fad0d9cbb76b983a515a79c3d77306aabc272",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 5
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Ancestry"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe links an older code stone to a later stone he can recognize."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
     }
   ]
 }

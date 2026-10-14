@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Lesser Circle","image":"https://api.imd.fun/artifacts/f506659f57def119afa904aac371ba4419742410f537e5d59772037680989f40","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 4"},{"trait_type":"Number","value":16},{"trait_type":"Left behind","value":"Return Relations"},{"trait_type":"Meaning","value":"A small ochre loop within charcoal marks a rehearsed balance within its greater supply."},{"trait_type":"One thing","value":"Rehearse Ethereum contract calls before submission"}]}

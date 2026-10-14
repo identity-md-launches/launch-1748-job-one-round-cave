@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Branching Trail",
+  "image": "https://api.imd.fun/artifacts/f4408d3615fca1b0eb14e46880c4687905e38533b133e5c150ef8a229f2d82c4",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 12
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Routes"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe follows a forked trail and marks where a path ends."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
     }
   ]
 }

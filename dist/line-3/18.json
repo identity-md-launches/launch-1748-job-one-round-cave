@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Open Trail",
+  "image": "https://api.imd.fun/artifacts/f5e3781416f63b65cb5b8f762bd32905ab6eefe1790b9f7018281851d20e96b3",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Dependency Frontier"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe maps proved call targets and leaves unresolved branches visible."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
     }
   ]
 }

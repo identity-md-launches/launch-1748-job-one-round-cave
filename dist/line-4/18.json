@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Evidence Sieve",
+  "image": "https://api.imd.fun/artifacts/2e2969dd3b8fed281a0564f6a68a05cfb9d4353e4706dd5aded0dee695eac9eb",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Rehearsal Report"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An ochre sieve catches a chalk pebble, filtering malformed call evidence before review."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Rehearse Ethereum contract calls before submission"
     }
   ]
 }

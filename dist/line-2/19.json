@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Open Stone",
+  "image": "https://api.imd.fun/artifacts/768e2cdf01cfd8edd9b47e2d71b15517c7a0a8fa4a90d47c461620974d91dd37",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 19
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Allowance Code Bytes"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A parted ochre stone reveals the dark vein hidden inside a reported promise."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }

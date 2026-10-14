@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Returning Bridge","image":"https://api.imd.fun/artifacts/841bb7dc9790216d7b4c95539597d3cdf4eb5dd1a4e45696a60d91f527428a7c","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 4"},{"trait_type":"Number","value":6},{"trait_type":"Left behind","value":"Relay Rehearsal"},{"trait_type":"Meaning","value":"Pepe bridges two stones so a question can reach the chain and return without spending."},{"trait_type":"One thing","value":"Rehearse Ethereum contract calls before submission"}]}

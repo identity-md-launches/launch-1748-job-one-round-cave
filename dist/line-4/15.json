@@ -1,10 +1,1 @@
-{
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
-  "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
-  ]
-}
+{"name":"The Measured Pebble","image":"https://api.imd.fun/artifacts/bf38393dfe0a94c570c51761af9c44c2dc8677eea7f54ad9037d19dbe2dd2f80","attributes":[{"trait_type":"Cave","value":"Moss"},{"trait_type":"Wall","value":"Line 4"},{"trait_type":"Number","value":15},{"trait_type":"Left behind","value":"Return Bounds"},{"trait_type":"Meaning","value":"A chalk pebble between ochre uprights marks a rehearsed value inside declared bounds."},{"trait_type":"One thing","value":"Rehearse Ethereum contract calls before submission"}]}

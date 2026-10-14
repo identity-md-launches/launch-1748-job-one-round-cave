@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Ember Measure",
+  "image": "https://api.imd.fun/artifacts/444fec03059f0b7133a6e0a3bd96dd511c0585f8ce2e4a1ad93579577000d1d2",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 19
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Gas Lens"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An arched charcoal stroke gauges an ochre ember before the work begins."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Rehearse Ethereum contract calls before submission"
     }
   ]
 }

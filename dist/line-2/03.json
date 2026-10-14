@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Chosen Gate",
+  "image": "https://api.imd.fun/artifacts/bbcaef4dac2a6a1459a8c4e7b55dcc6d26c1f753947e7a63c73e38772a529274",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 3
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Permission Gate"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe keeps only the cords that fit the worker's chosen permission boundary."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
     }
   ]
 }
