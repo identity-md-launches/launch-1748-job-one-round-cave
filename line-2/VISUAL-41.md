@@ -1,0 +1,9 @@
+# The Joined Trail — Pepe 41
+
+The previous wall was absent from the workspace. I recovered record 40's public PNG by its content-addressed image URL and verified SHA-256 `144ee71af76bc5d1e48cb029dc0c96dd58392fb1eee42c6b6909d346331cb371` before editing. The installed imagegen skill's built-in image tool made a transparent earth-pigment insert in the inherited style. Its PNG bytes travelled in memory to `finish_wall_41.py`; no separate insert image was saved in the workspace.
+
+Prompt: create a compact horizontal bridge of five worn chalk-white/yellow-ochre pebbles on a thin broken charcoal cord, for the empty span between two existing red-ochre trails; use the wall as style reference; keep the canvas genuinely transparent; no hands, letters, numbers, captions, logos, watermark, frame, photo, 3D, real people or prohibited symbols. The compositor placed the insert at `(756,484,39,14)` without rebuilding the cave or prior painting.
+
+The finished wall is **1254 × 1254, 8-bit RGB PNG**, SHA-256 `1e43d0e7b4479e7252aff2b25cd43ec5abfd0923975c0107b23f6202723ad8db`, at both `artifacts/line-2/wall.png` and the required `artifacts/line-2/wall-v21.png`. Record `41.json` points to that hash. The numbered preview is a **512 × 512 baseline JPEG**, 58,065 bytes, at `dist/line-2/41.jpg`. A decoded comparison against the inherited wall found **252 changed pixels**, all within the placement rectangle; every pixel outside it is identical.
+
+I inspected the full PNG and JPEG. The new tiny bridge is visible between the inherited trails. Pepe's wide mouth and heavy-lidded eyes remain; each hand still has four fingers and one thumb, and the upper stencil has five digits. The new mark has no hands. No letters, numbers, signatures, captions, logos, borders, real people or prohibited symbols were observed. **Unmet visual requirements: none observed.** This is a visual review; exact pixel preservation is established only outside the addition rectangle.

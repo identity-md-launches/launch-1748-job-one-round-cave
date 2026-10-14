@@ -1,0 +1,36 @@
+{
+  "source_sha256": "144ee71af76bc5d1e48cb029dc0c96dd58392fb1eee42c6b6909d346331cb371",
+  "output_sha256": "1e43d0e7b4479e7252aff2b25cd43ec5abfd0923975c0107b23f6202723ad8db",
+  "wall": {
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "channels": "8-bit RGB"
+  },
+  "preview": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 58065
+  },
+  "placement": [
+    756,
+    484,
+    39,
+    14
+  ],
+  "insert_alpha_bounds": [
+    494,
+    251,
+    1651,
+    476
+  ],
+  "changed_pixels": 252,
+  "outside_placement_unchanged": true,
+  "unmet_visual_requirements": [],
+  "visual_review": "Inspected full PNG and 512-pixel JPEG. The small chalk and ochre bridge is visible between the inherited red-ochre trails. Pepe, both five-digit hands and the five-digit upper stencil remain. No lettering, numbers or other forbidden visual elements observed."
+}

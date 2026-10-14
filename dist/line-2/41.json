@@ -1,0 +1,30 @@
+{
+  "name": "The Joined Trail",
+  "image": "https://api.imd.fun/artifacts/1e43d0e7b4479e7252aff2b25cd43ec5abfd0923975c0107b23f6202723ad8db",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 41
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Approval Event Backfill"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Five newly seen pairs bridge a gap in the approval trail."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "ERC-20 spending-permission audits"
+    }
+  ]
+}
