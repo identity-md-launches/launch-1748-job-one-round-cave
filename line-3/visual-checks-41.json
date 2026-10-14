@@ -1,0 +1,36 @@
+{
+  "ancestor_sha256": "ca738455f059296397505581b8fa1933285fa14b174b7e4a123ef78f51fed7b0",
+  "editor_draft_sha256": "c2642751dc2dbd5bacb4607c64e03e46cc950dc725967d32bf03aaa33e98df7e",
+  "wall_sha256": "e2488ec97382f63ec7593eaa7857d322bd8c269608f47292a2b04a660a5b3085",
+  "wall": {
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGB 8-bit"
+  },
+  "thumbnail": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 62341
+  },
+  "addition_box": [
+    648,
+    1163,
+    887,
+    1242
+  ],
+  "changed_pixels": 7362,
+  "changed_pixels_outside_addition": 0,
+  "unmet_visual_requirements": [],
+  "visual_review": "Inspected final full PNG and 512px JPEG, plus in-memory enlarged crops of both inherited hands. Both retain five digits, four fingers and one thumb. No new hands or handprints. Existing wide mouths and heavy-lidded Pepe eyes remain. Four ochre pebbles, short charcoal links and a chalk crescent are added on clear lower-wall rock. No letters, numbers, captions, signatures, logos, watermarks, borders, frames, forbidden symbols, real people or new photographic/3D content observed. Contributor inspection, not independent visual certification.",
+  "inherited_hand_digit_counts": [
+    5,
+    5
+  ],
+  "new_hands_or_handprints": 0
+}

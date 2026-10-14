@@ -1,0 +1,54 @@
+{
+  "ZTO": {
+    "decision": "refuse",
+    "reasons": [
+      "missing-caller-checkpoint-anchor"
+    ],
+    "code_block": {
+      "number": "0x18f8e40",
+      "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+    },
+    "checkpoint": {
+      "number": "0x18f8e48",
+      "hash": "0x07f196d25c75c25619fa44ce3d3b16c3448f2ebdcc767ad8353f84ad657cdbd7"
+    },
+    "code_age_blocks": 8,
+    "parent_links_verified_per_bundle": 8,
+    "measured_runtime_count": 1,
+    "missing_constant_targets": [],
+    "unresolved_call_site_count": 0,
+    "caller_supplied_checkpoint_hash_matched": false,
+    "code_evidence_refreshed": false
+  },
+  "IMD": {
+    "decision": "refuse",
+    "reasons": [
+      "missing-constant-target-proofs",
+      "unresolved-call-operands",
+      "missing-caller-checkpoint-anchor"
+    ],
+    "code_block": {
+      "number": "0x18f8e40",
+      "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+    },
+    "checkpoint": {
+      "number": "0x18f8e48",
+      "hash": "0x07f196d25c75c25619fa44ce3d3b16c3448f2ebdcc767ad8353f84ad657cdbd7"
+    },
+    "code_age_blocks": 8,
+    "parent_links_verified_per_bundle": 8,
+    "measured_runtime_count": 1,
+    "missing_constant_targets": [
+      "0x1a44076050125825900e736c501f859c50fe728c"
+    ],
+    "unresolved_call_site_count": 11,
+    "caller_supplied_checkpoint_hash_matched": false,
+    "code_evidence_refreshed": false
+  },
+  "stale_ZTO_reasons": [
+    "code-evidence-too-old",
+    "missing-caller-checkpoint-anchor"
+  ],
+  "demonstration_passed": true,
+  "note": "Historical real proof/header replay. Example review hashes are copied from evidence, not independently audited approvals. No anchor supplied."
+}

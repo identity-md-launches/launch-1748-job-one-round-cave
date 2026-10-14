@@ -1,0 +1,49 @@
+{
+  "tool": "Code Frontier Checkpoint",
+  "new_tests": {
+    "count": 18,
+    "passed": 18,
+    "command": "python3 -B -m unittest discover -s line-3/tools/code-frontier-checkpoint -p 'test_*.py' -v"
+  },
+  "ancestor_suites": [
+    {
+      "tool": "Code Frontier Review",
+      "tests_passed": 8
+    },
+    {
+      "tool": "Code Ancestry",
+      "tests_passed": 23
+    },
+    {
+      "tool": "Code Dependency Frontier",
+      "tests_passed": 7
+    }
+  ],
+  "total_tests_passed": 56,
+  "demo_command": "python3 -B line-3/tools/code-frontier-checkpoint/demo.py",
+  "demo_exit_code": 0,
+  "demo_passed": true,
+  "proof_context": "Saved real ZTO then IMD at 26185280 linked through eight saved real execution headers to 26185288; no independent checkpoint supplied.",
+  "delivery": {
+    "goal_byte_unchanged": true,
+    "older_records_unchanged": true,
+    "new_record": 41,
+    "record_count": 41,
+    "wall_upload_alias_identical": true,
+    "wall_png_dimensions": [
+      1254,
+      1254
+    ],
+    "thumbnail_jpeg_dimensions": [
+      512,
+      512
+    ],
+    "wall_sha256": "e2488ec97382f63ec7593eaa7857d322bd8c269608f47292a2b04a660a5b3085",
+    "output_pngs_untracked": true,
+    "new_files_under_100000_bytes_outside_artifacts": true,
+    "writes_within_assignment_scope": true
+  },
+  "visual_check_file": "line-3/visual-checks-41.json",
+  "unmet_visual_requirements": [],
+  "authority": "Contributor local checks only; no independent certification of behavior or visual quality."
+}

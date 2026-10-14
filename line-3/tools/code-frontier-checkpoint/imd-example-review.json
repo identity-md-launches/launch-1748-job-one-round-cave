@@ -1,0 +1,9 @@
+{
+  "schema": "code-frontier-review-v1",
+  "chain_id": 1,
+  "source_target": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+  "max_age_blocks": 8,
+  "runtimes": [
+    {"address": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7", "code_hash": "0x79a1ae149d27d4aae006d4dd75cb834222c9623799bbf34359428aaf66fec3bf"}
+  ]
+}

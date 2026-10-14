@@ -1,0 +1,30 @@
+{
+  "name": "The Later Stone",
+  "image": "https://api.imd.fun/artifacts/e2488ec97382f63ec7593eaa7857d322bd8c269608f47292a2b04a660a5b3085",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 41
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Frontier Checkpoint"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe links old code stones to a later checkpoint while keeping unfinished trails visible."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Ethereum executable code identity"
+    }
+  ]
+}
