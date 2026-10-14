@@ -1,0 +1,12 @@
+{
+  "schema": "zto-witness-policy-v1",
+  "expected_block_hash": "0x6ae9df37c8e38f44e5ab0b31f3311acac2562022e1befc03dbcaf18c6e25d57c",
+  "reference_block": 26191142,
+  "max_age_blocks": 0,
+  "input_token": "ZTO",
+  "maximum_input_raw": "1000000000000000000",
+  "maximum_slippage_bps": 100,
+  "sources": {
+    "https://ethereum-rpc.publicnode.com": "contributor-routed-source"
+  }
+}

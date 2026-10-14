@@ -1,0 +1,96 @@
+{
+  "schema": "zto-witness-packet-report-v1",
+  "status": "withheld",
+  "packet_sha256": "dd5319b68ab0bb98ef9001a737e52683964dadd772d2bf5b46cf2a0fc28a772e",
+  "receiver_fingerprint_checked": true,
+  "receiver_policy_sha256": "a5c59d1b891b925b0e142798910c2688d9274191f8f14ccaf29ff98f84bcebd4",
+  "captures_sha256": [
+    {
+      "snapshot": "3b86531e4460f2e694b7f824ed5027bf9230a331025d7cbddf0ef759ef560a30",
+      "quoter": "24f9f1fcf370211d6dba6dfb035d615683b51dbea2251a3c6d1d7250b9b4b380"
+    },
+    {
+      "snapshot": "3b86531e4460f2e694b7f824ed5027bf9230a331025d7cbddf0ef759ef560a30",
+      "quoter": "24f9f1fcf370211d6dba6dfb035d615683b51dbea2251a3c6d1d7250b9b4b380"
+    }
+  ],
+  "bound_released": false,
+  "bound": null,
+  "reasons": [
+    "duplicate_source_label",
+    "insufficient_distinct_receiver_provider_groups",
+    "no_cross_group_pair"
+  ],
+  "quorum_report": {
+    "schema": "zto-witness-quorum-report-v1",
+    "status": "withheld",
+    "chain_id": 1,
+    "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+    "receiver_policy_sha256": "a5c59d1b891b925b0e142798910c2688d9274191f8f14ccaf29ff98f84bcebd4",
+    "request_sha256": "406e3042284aaa0f9a0f8e7a55ce9354cfe6899919dda0a93b111f81dff48110",
+    "input_token": "ZTO",
+    "requested_input": "1",
+    "input_raw": "1000000000000000000",
+    "slippage_bps": 100,
+    "minimum_distinct_groups": 2,
+    "distinct_receiver_provider_groups": [
+      "archived-publicnode"
+    ],
+    "candidates": [
+      {
+        "source_label": "https://ethereum-rpc.publicnode.com",
+        "receiver_provider_group": "archived-publicnode",
+        "block": {
+          "number": "0x18f8a44",
+          "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+          "timestamp": "0x6ace4457"
+        },
+        "local_status": "estimated",
+        "raw_quoter_matches": true,
+        "output_raw": "15292155595473"
+      },
+      {
+        "source_label": "https://ethereum-rpc.publicnode.com",
+        "receiver_provider_group": "archived-publicnode",
+        "block": {
+          "number": "0x18f8a44",
+          "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+          "timestamp": "0x6ace4457"
+        },
+        "local_status": "estimated",
+        "raw_quoter_matches": true,
+        "output_raw": "15292155595473"
+      }
+    ],
+    "selected_pair_indexes": null,
+    "reasons": [
+      "duplicate_source_label",
+      "insufficient_distinct_receiver_provider_groups",
+      "no_cross_group_pair"
+    ],
+    "bound_released": false,
+    "bound": null,
+    "limitations": [
+      "Receiver-assigned groups do not authenticate independent upstreams.",
+      "A relabeled copied capture can pass an incorrectly trusted receiver policy.",
+      "Saved RPC data and endpoint labels are not authenticated state or proof of independent providers.",
+      "The caller supplies the block anchor and reference height; no current freshness is measured.",
+      "Arithmetic is inherited, not independently proved; coverage is limited to the saved bitmap.",
+      "The positive planning minimum is not enforced by a router or receipt.",
+      "No token settlement, gas, MEV, future state, signing or sending is modeled."
+    ]
+  },
+  "limitations": [
+    "The packet carries evidence, never receiver policy or transaction authority.",
+    "SHA-256 identifies canonical JSON content; it does not authenticate an RPC or sender.",
+    "Receiver-assigned groups do not authenticate independent upstreams.",
+    "A relabeled copied capture can pass an incorrectly trusted receiver policy.",
+    "Saved RPC data and endpoint labels are not authenticated state or proof of independent providers.",
+    "The caller supplies the block anchor and reference height; no current freshness is measured.",
+    "Arithmetic is inherited, not independently proved; coverage is limited to the saved bitmap.",
+    "The positive planning minimum is not enforced by a router or receipt.",
+    "No token settlement, gas, MEV, future state, signing or sending is modeled."
+  ],
+  "mode": "offline_real_historical_single_source_packet",
+  "canonical_packet_bytes": 7237
+}

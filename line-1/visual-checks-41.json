@@ -1,0 +1,45 @@
+{
+  "ancestor_sha256": "29295d0412c72cd1b77107c9cc096ad666e02b3b25093a34818ab6a9490eee5f",
+  "wall": {
+    "paths": [
+      "artifacts/line-1/wall.png",
+      "artifacts/line-1/wall-v21.png"
+    ],
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "color": "8-bit RGB",
+    "sha256": "3f853fe775ac40944d14b19795a5be232a51411e42281e4def3177048edc597d",
+    "bytes": 4004005
+  },
+  "thumbnail": {
+    "path": "dist/line-1/41.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 57123
+  },
+  "addition_rectangle_xyxy": [
+    595,
+    95,
+    685,
+    205
+  ],
+  "changed_pixels_inside_rectangle": 4860,
+  "changed_pixels_outside_rectangle": 0,
+  "visual_review": {
+    "chosen_review": "Inspected the complete PNG and 512px JPEG with view_image after compositing.",
+    "pepe": "Inherited main cave figure retains wide mouth and heavy-lidded eyes.",
+    "hands": {
+      "main_left_hand_digits": 5,
+      "main_right_hand_digits": 5,
+      "interpretation": "four fingers and one thumb on each hand",
+      "new_hands": 0
+    },
+    "preserved": "Original 1254px framing, rock, cracks, light and every pixel outside the addition rectangle are unchanged.",
+    "forbidden_elements_observed": [],
+    "unmet_visual_requirements": [],
+    "limits": "Small new pigment motif is somewhat more saturated than older marks; visual review is human-style inspection, not proof."
+  },
+  "unmet_visual_requirements": []
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "zto-witness-packet-report-v1",
+  "status": "withheld",
+  "packet_sha256": "8bb4c8dcb864ffa5d32bed119e7dbfe52d30b6e6139f185ea0bfa2eaee5c1cfb",
+  "receiver_fingerprint_checked": true,
+  "receiver_policy_sha256": "8630c86ae649c248a84936d016469a5a8e778fc2f8861b90354f84389bf116f9",
+  "captures_sha256": [
+    {
+      "snapshot": "fd024ecfec4bbfd8c00044b95e07ee2457daabe4c8d285db64cb99b19908f520",
+      "quoter": "3200efa82bf04dc6b813747549f1c2f32e50c2a117822d60c6846f510e321e7e"
+    },
+    {
+      "snapshot": "fd024ecfec4bbfd8c00044b95e07ee2457daabe4c8d285db64cb99b19908f520",
+      "quoter": "3200efa82bf04dc6b813747549f1c2f32e50c2a117822d60c6846f510e321e7e"
+    }
+  ],
+  "bound_released": false,
+  "bound": null,
+  "reasons": [
+    "duplicate_source_label",
+    "insufficient_distinct_receiver_provider_groups",
+    "no_cross_group_pair"
+  ],
+  "quorum_report": {
+    "schema": "zto-witness-quorum-report-v1",
+    "status": "withheld",
+    "chain_id": 1,
+    "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+    "receiver_policy_sha256": "8630c86ae649c248a84936d016469a5a8e778fc2f8861b90354f84389bf116f9",
+    "request_sha256": "6e063f667a3801c99d21d1532cca7a6f48b1e844ddaf5e706b0a08d5beecd4a9",
+    "input_token": "ZTO",
+    "requested_input": "1",
+    "input_raw": "1000000000000000000",
+    "slippage_bps": 100,
+    "minimum_distinct_groups": 2,
+    "distinct_receiver_provider_groups": [
+      "contributor-routed-source"
+    ],
+    "candidates": [
+      {
+        "source_label": "https://ethereum-rpc.publicnode.com",
+        "receiver_provider_group": "contributor-routed-source",
+        "block": {
+          "number": "0x18fa526",
+          "hash": "0x6ae9df37c8e38f44e5ab0b31f3311acac2562022e1befc03dbcaf18c6e25d57c",
+          "timestamp": "0x6acf8857"
+        },
+        "local_status": "estimated",
+        "raw_quoter_matches": true,
+        "output_raw": "18807962790798"
+      },
+      {
+        "source_label": "https://ethereum-rpc.publicnode.com",
+        "receiver_provider_group": "contributor-routed-source",
+        "block": {
+          "number": "0x18fa526",
+          "hash": "0x6ae9df37c8e38f44e5ab0b31f3311acac2562022e1befc03dbcaf18c6e25d57c",
+          "timestamp": "0x6acf8857"
+        },
+        "local_status": "estimated",
+        "raw_quoter_matches": true,
+        "output_raw": "18807962790798"
+      }
+    ],
+    "selected_pair_indexes": null,
+    "reasons": [
+      "duplicate_source_label",
+      "insufficient_distinct_receiver_provider_groups",
+      "no_cross_group_pair"
+    ],
+    "bound_released": false,
+    "bound": null,
+    "limitations": [
+      "Receiver-assigned groups do not authenticate independent upstreams.",
+      "A relabeled copied capture can pass an incorrectly trusted receiver policy.",
+      "Saved RPC data and endpoint labels are not authenticated state or proof of independent providers.",
+      "The caller supplies the block anchor and reference height; no current freshness is measured.",
+      "Arithmetic is inherited, not independently proved; coverage is limited to the saved bitmap.",
+      "The positive planning minimum is not enforced by a router or receipt.",
+      "No token settlement, gas, MEV, future state, signing or sending is modeled."
+    ]
+  },
+  "limitations": [
+    "The packet carries evidence, never receiver policy or transaction authority.",
+    "SHA-256 identifies canonical JSON content; it does not authenticate an RPC or sender.",
+    "Receiver-assigned groups do not authenticate independent upstreams.",
+    "A relabeled copied capture can pass an incorrectly trusted receiver policy.",
+    "Saved RPC data and endpoint labels are not authenticated state or proof of independent providers.",
+    "The caller supplies the block anchor and reference height; no current freshness is measured.",
+    "Arithmetic is inherited, not independently proved; coverage is limited to the saved bitmap.",
+    "The positive planning minimum is not enforced by a router or receipt.",
+    "No token settlement, gas, MEV, future state, signing or sending is modeled."
+  ],
+  "mode": "fresh_single_source_duplicate_captures_no_independence",
+  "source_note": "Assignment contributor read-only relay; public source reference is PublicNode. Actual upstream identity was not independently established. Both packet entries are the same capture."
+}

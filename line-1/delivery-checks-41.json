@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "goal_sha256_unchanged": "ef78b6868ed5e359415d94b483fda4d44a7ab649ed8e1f92984b4d54d077130a",
+  "older_numbered_records_unchanged": 40,
+  "older_source_files_unchanged_except_appended_USED": true,
+  "new_record": "dist/line-1/41.json",
+  "new_record_exact_shape": true,
+  "wall_paths": [
+    "artifacts/line-1/wall.png",
+    "artifacts/line-1/wall-v21.png"
+  ],
+  "wall_sha256": "3f853fe775ac40944d14b19795a5be232a51411e42281e4def3177048edc597d",
+  "wall_mirrors_identical": true,
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG, 8-bit RGB",
+  "thumbnail": "dist/line-1/41.jpg",
+  "thumbnail_dimensions": [
+    512,
+    512
+  ],
+  "thumbnail_format": "JPEG baseline, 8-bit RGB",
+  "thumbnail_bytes": 57123,
+  "images_untracked": true,
+  "changed_pixels_inside_addition": 4860,
+  "changed_pixels_outside_addition": 0,
+  "preservation_rechecked_from_hash_verified_ancestor": true,
+  "all_changed_paths_allowed": true,
+  "all_new_nonartifact_files_under_100KB": true,
+  "suite_count": 18,
+  "passed_tests": 212,
+  "documented_demo_exit": 0,
+  "documented_pack_exit": 0,
+  "documented_fingerprint_review_exit": 2,
+  "unmet_visual_requirements": []
+}

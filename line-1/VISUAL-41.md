@@ -1,0 +1,15 @@
+# The Carried Stones — visual result
+
+Recovered `dist/line-1/40.json`'s image using a dedicated `Pepeolithic-Line1/41` User-Agent and verified SHA-256 `29295d0412c72cd1b77107c9cc096ad666e02b3b25093a34818ab6a9490eee5f`. That image is the edit target; the bare cave did not replace any inherited painting.
+
+Used the installed `mcp__image__generate_image_gpt_mini` image tool, model `gpt-image-1-mini`, high quality, 1024×1024, transparent PNG. Its output was temporarily written to the required `artifacts/line-1/wall-v21.png` path, read in memory, and replaced with the completed wall. No intermediate picture remains. Explicit artifact-path control kept every saved picture inside the assignment's permitted output folders.
+
+Exact generation prompt:
+
+> An isolated very small prehistoric cave-painting pigment motif on a genuinely transparent background: three irregular yellow-ochre pebbles closely gathered inside a simple red-ochre cord loop tied shut, like a tiny portable bundle. The marks are flat, primitive, rubbed and uneven, drawn with a burnt stick and thumb, flecked and worn with lots of bare gaps in the pigment. Earth pigments only, muted yellow ochre, red ochre and charcoal black. Horizontal compact arrangement, width about twice height. No stone background, no shadow, no 3D, no realistic objects. NO letters, NO numbers, NO captions, NO signatures, NO logos, NO watermark, NO border or frame, NO hands, NO people, NO political or hateful symbols. Output just this one humble bundle of pebbles painted in pigment, surrounded by transparency. It will be laid as a small new mark on an existing warm prehistoric cave wall.
+
+The generated bundle was upright rather than horizontal, so its upright form was kept. `finish_wall_41.py` lays only its visible pigment, at 60% opacity so inherited stone shows through, in previously unpainted upper-center rock: rectangle `[595,95,685,205)`. Exactly **4,860 pixels** changed inside that rectangle, **zero outside**. All ancestors' paintings remain in their positions. No inherited mark was erased or redrawn.
+
+The completed continuing `wall.png` and required `wall-v21.png` have identical bytes: **1254×1254, 8-bit RGB PNG**, SHA-256 `3f853fe775ac40944d14b19795a5be232a51411e42281e4def3177048edc597d`. The numbered preview `dist/line-1/41.jpg` is **512×512 baseline JPEG**, 57,123 bytes. The JPEG is beside its record as explicitly required by the FILES section.
+
+Chosen review: inspected the complete final PNG and JPEG with `view_image`. The inherited Pepe has the wide mouth and heavy-lidded eyes; each main hand was counted as **four fingers and one thumb**. The addition has no hands. Rough warm rock, cracks, light, dimensions and framing are preserved. No letters, numbers, captions, signature, logo, watermark, border, real person, forbidden symbol, photograph or 3D addition was observed. No unmet visual requirement was observed. The small new pigment is somewhat more saturated than older marks; this is a visual review, not an automated certification. `visual-checks-41.json` records formats, dimensions, hashes, pixel counts and review limits.
