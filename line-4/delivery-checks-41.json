@@ -1,0 +1,41 @@
+{
+  "ancestor_sha256": "4065148239bbff31a4c8d6d8569b0f30924e43ba349b117f45fd274551475e3d",
+  "generated_sha256": "f6442e6ca44d4a0a9a771bc57b593c35c9feb6f0085c1abbfd6bcd9c34d35327",
+  "wall_sha256": "614c335f922669476bfc348093716fe9074075ccdfb2dafacf1a7a9114444e80",
+  "wall": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 4023915
+  },
+  "thumbnail": {
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 60770
+  },
+  "addition_rectangle": [
+    930,
+    620,
+    1105,
+    742
+  ],
+  "changed_pixels_inside": 4133,
+  "changed_pixels_outside": 0,
+  "unmet_visual_requirements": [
+    "Inherited tiny three-pronged trail motifs cannot be certified as five-digit handprints; preserved unchanged."
+  ],
+  "record": "dist/line-4/41.json",
+  "number": 41,
+  "png_signature_and_ihdr_verified": true,
+  "jpeg_baseline_dimensions_verified": true,
+  "record_sha256_verified": true,
+  "continuing_wall_identical": true,
+  "goal_identical_to_head": true,
+  "older_records_unchanged": true,
+  "changed_paths_in_scope": true,
+  "new_files_below_100kb_outside_artifacts": true,
+  "required_wall_outputs_untracked": true,
+  "review": "Final full PNG and 512px JPEG visually inspected. New scale adds no hand or text. Inherited bent-hand strokes overlap; tiny red trail motifs remain uncertifiable as five-digit handprints."
+}

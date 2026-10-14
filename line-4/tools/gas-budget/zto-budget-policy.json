@@ -1,0 +1,21 @@
+{
+  "schema": "gas-budget-policy-v1",
+  "request": {
+    "schema": "gas-cap-request-v1",
+    "chain_id": 1,
+    "call": {
+      "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+      "data": "0x18160ddd",
+      "value": "0x0",
+      "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+    },
+    "block": {
+      "number": "0x18fa209",
+      "hash": "0x63af72b9379fba0e92a775299a9708eadffdd12395b382b481ce7976567d361c",
+      "timestamp": "0x6acf62d7"
+    },
+    "gas_limit": "30000",
+    "expected_return": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000"
+  },
+  "minimum_headroom_bps": 1000
+}

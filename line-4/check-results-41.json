@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-14",
+  "tests": 84,
+  "runs": [
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/gas-budget -p 'test_*.py'",
+      "chunk_id": "53c686",
+      "wall_time_seconds": 0.54012316,
+      "exit_code": 0,
+      "original_token_count": 31,
+      "output": ".......................\n----------------------------------------------------------------------\nRan 23 tests in 0.189s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/gas-cap-rehearsal -p 'test_*.py'",
+      "chunk_id": "5b7586",
+      "wall_time_seconds": 0.315732074,
+      "exit_code": 0,
+      "original_token_count": 30,
+      "output": ".....................\n----------------------------------------------------------------------\nRan 21 tests in 0.015s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/rehearsal-binding -p 'test_*.py'",
+      "chunk_id": "84499a",
+      "wall_time_seconds": 0.364833557,
+      "exit_code": 0,
+      "original_token_count": 30,
+      "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.024s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/call-rehearsal -p 'test_*.py'",
+      "chunk_id": "c321ac",
+      "wall_time_seconds": 0.441576624,
+      "exit_code": 0,
+      "original_token_count": 30,
+      "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.023s\n\nOK\n"
+    }
+  ],
+  "live": {
+    "token": "ZTO",
+    "source": "https://ethereum-rpc.publicnode.com",
+    "transport": "contributor-relay",
+    "block_number": 26190345,
+    "estimate_gas": "21469",
+    "allowance_gas": "30000",
+    "minimum_headroom_bps": 1000,
+    "required_by_policy_gas": "23616",
+    "verdict": "within_budget"
+  },
+  "authority": "Local checks only; saved provider claims and content digests are not authenticity proofs."
+}

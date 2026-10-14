@@ -12,7 +12,7 @@ python3 -B line-4/tools/gas-lens/gas_lens.py demo
 ```
 
 Tried on 2026-10-14: the demo replayed saved real ZTO `totalSupply()` evidence
-from PublicNode at finalized block `0x18fa209`, hash
+from PublicNode at finalized block **26,190,345** (`0x18fa209`), hash
 `0x63af72b9379fba0e92a775299a9708eadffdd12395b382b481ce7976567d361c`.
 The provider returned `1000000000000000000000000000` raw ZTO units to
 `eth_call` and estimated **21,469 gas** for that same call. dRPC independently

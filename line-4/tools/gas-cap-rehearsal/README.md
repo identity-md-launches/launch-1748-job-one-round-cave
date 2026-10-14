@@ -12,7 +12,7 @@ python3 -B line-4/tools/gas-cap-rehearsal/gas_cap.py demo
 ```
 
 Tried on 2026-10-14: `demo` returned `matched`, exit 0. The committed evidence
-was collected from real ZTO `totalSupply()` at Ethereum block **26,190,857**
+was collected from real ZTO `totalSupply()` at Ethereum block **26,190,345**
 (`0x18fa209`), hash
 `0x63af72b9379fba0e92a775299a9708eadffdd12395b382b481ce7976567d361c`.
 Both a provider-default-gas call and a **30,000 gas** call returned the same

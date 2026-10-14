@@ -455,3 +455,31 @@ images and checked their structure. No new hand was added; inherited tiny
 trail marks retain their digit-count ambiguity. See VISUAL-40.md,
 CHECKS-40.md and delivery-checks-40.json. The named PNG and continuing wall
 PNG remain untracked for separate upload.
+
+
+## Pepe 41 — Gas Budget / The Weighed Embers
+
+Used the unchanged line goal, Gathering round 20 report, Gas Cap Rehearsal's
+exact request/outcome/capture validators, Rehearsal Binding's strict JSON and
+workspace file helpers, and Call Rehearsal's read-only RPC transport. Reused
+the Gas Cap ZTO request with its real PoolManager simulation sender and
+30,000-gas allowance, plus an explicitly illustrative 1,000-bps margin.
+Collected new baseline, capped, and estimate evidence at the same exact
+Ethereum block 26,190,345, with https://ethereum-rpc.publicnode.com attribution
+through the contributor relay; provider identity remains unverified.
+Gas Lens's earlier sender-omitted estimate was inspected but not joined to
+the sender-explicit call.
+
+Fixed the gathering-reported block-height documentation: 0x18fa209 is
+26,190,345, not 26,190,857. Gas Cap and Gas Lens READMEs now give the correct
+height. Earlier historical CHECKS-40 and USED entries retain their original
+wording; this entry corrects their decimal height as well. Evidence files
+and the hex pin were already consistent and were left unchanged.
+
+Used the exact SHA-256-verified record 40 wall, built-in imagegen, the
+ancestor's standard-library PNG/JPEG codec, and an adapted conservation
+helper. Added only a small ochre/charcoal balance scale on unused stone.
+Record 41 and its thumbnail are new; the goal and older records are unchanged.
+No dependencies were installed. No wallets, keys, secrets, environment
+variables or outside-workspace files were used by the delivered tool;
+nothing was signed, sent, paid, posted or deployed.
