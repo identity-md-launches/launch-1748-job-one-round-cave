@@ -1,0 +1,56 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "proof-gas-budget-suite",
+      "command": [
+        "python3",
+        "-B",
+        "gathering/run_suite.py",
+        "discover",
+        "-s",
+        "shared/proof-gas-budget",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "test_count": 8
+    },
+    {
+      "name": "approval-backfill-gathering-suite",
+      "command": [
+        "python3",
+        "-B",
+        "gathering/run_suite.py",
+        "discover",
+        "-s",
+        "gathering",
+        "-p",
+        "test_backfill_21.py",
+        "-v"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "test_count": 4
+    },
+    {
+      "name": "spender-code-publicnode-live",
+      "command": [
+        "python3",
+        "-B",
+        "gathering/try_spender_code.py",
+        "--timeout",
+        "20"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "result_path": "gathering/spender-code-live-21.json",
+      "result_sha256": "eb47553fea6eb0614606f0b1d59446c82523daf04b6d9030088860d8c1892fa5"
+    }
+  ]
+}

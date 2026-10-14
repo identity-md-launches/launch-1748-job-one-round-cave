@@ -1,17 +1,29 @@
-# Gathering 20 — The Paired Bowls
+# Gathering 21 — The Measured Gathering
 
-All 198 recorded command checks matched expected exits; 1,307 tests passed. `REPORT.md` covers every line and Line 4's block-number documentation defect. `COINS.md` requests no coin. No line folder changed.
+All 208 recorded command checks matched expected exits; 1,375 tests passed.
+REPORT.md covers the four lines, evidence gaps and scope. COINS.md requests
+no coin. No line folder changed.
 
-The new shared piece rechecks a real historical ZTO runtime proof with exact gas-cap call evidence. One command shows it working offline:
+The shared piece binds verified historical runtime bytes to an exact call's
+separately declared gas-budget policy. It runs offline on committed Python
+standard-library sources and real saved ZTO evidence:
 
 ```sh
-python3 -B shared/proof-gas-cap/proof_gas_cap.py
+python3 -B shared/proof-gas-budget/proof_gas_budget.py
 ```
 
-It prints `historical_context_joined`; an older real proof is withheld. This is an evidence join, never transaction approval. The shared README explains checks and limitations. Python's standard library and committed source/evidence are sufficient.
+It prints historical_context_joined. The shared README explains inputs,
+refusals and limits. This is evidence association, never transaction approval.
 
-Run inherited offline suites with `python3 -B gathering/check_tools.py`. This round's extra commands/results are in `latest-demos-20.json` and `check-results-20.json`. Optional collectors are read-only provenance helpers; read their source before use. They refuse to overwrite evidence.
+Run inherited checks with `python3 -B gathering/check_tools.py`, latest demos
+with `python3 -B gathering/try_latest_21.py`, and backfill checks with
+`python3 -B gathering/run_suite.py discover -s gathering -p test_backfill_21.py`.
+Read any collector before use. Collectors only read public RPC.
 
-The finished wall is `artifacts/gathering/wall-v20.png`, 1254 × 1254 RGB PNG. Its record and 512 × 512 JPEG are `dist/gathering/20.json` and `20.jpg`. `IMAGE-PROMPT.md` records the installed tool prompt; `VISUAL.md` records review and limits.
+The finished wall is artifacts/gathering/wall-v21.png, 1254-square RGB PNG.
+Record 21 and its 512-square JPEG are in dist/gathering/. The prompt is in
+IMAGE-PROMPT.md; visual review is in VISUAL.md. finish_wall_21.py consumes a
+freshly generated pigment image, so do not rerun it on the completed wall.
 
-Rebuild the gallery with `python3 -B gathering/build_index.py`. Check delivery with `python3 -B gathering/check_delivery_20.py`.
+Rebuild the gallery with `python3 -B gathering/build_index.py`.
+Check delivery with `python3 -B gathering/check_delivery_21.py`.

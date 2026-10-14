@@ -1,0 +1,3813 @@
+{
+ "schema": "gathering-local-checks-v3",
+ "authority": "Local contributor checks; no independent certification.",
+ "all_passed": true,
+ "checks": [
+  {
+   "name": "line-1-zto-archive-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-archive",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 6 tests in 0.007s\nOK\n",
+   "test_count": 6
+  },
+  {
+   "name": "line-1-zto-band-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-band",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 16 tests in 0.039s\nOK\n",
+   "test_count": 16
+  },
+  {
+   "name": "line-1-zto-bundle-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-bundle",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 9 tests in 0.111s\nOK\n",
+   "test_count": 9
+  },
+  {
+   "name": "line-1-zto-capacity-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-capacity",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 5 tests in 0.141s\nOK\n",
+   "test_count": 5
+  },
+  {
+   "name": "line-1-zto-drift-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-drift",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 17 tests in 0.090s\nOK\n",
+   "test_count": 17
+  },
+  {
+   "name": "line-1-zto-handoff-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-handoff",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 16 tests in 0.236s\nOK\n",
+   "test_count": 16
+  },
+  {
+   "name": "line-1-zto-path-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-path",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 17 tests in 0.101s\nOK\n",
+   "test_count": 17
+  },
+  {
+   "name": "line-1-zto-refresh-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-refresh",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 10 tests in 2.427s\nOK\n",
+   "test_count": 10
+  },
+  {
+   "name": "line-1-zto-review-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-review",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 15 tests in 0.064s\nOK\n",
+   "test_count": 15
+  },
+  {
+   "name": "line-1-zto-sizes-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-sizes",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 12 tests in 0.061s\nOK\n",
+   "test_count": 12
+  },
+  {
+   "name": "line-1-zto-target-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-target",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 5 tests in 0.246s\nOK\n",
+   "test_count": 5
+  },
+  {
+   "name": "line-1-zto-target-check-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-target-check",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 9 tests in 1.006s\nOK\n",
+   "test_count": 9
+  },
+  {
+   "name": "line-1-zto-witness-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-witness",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 6 tests in 0.020s\nOK\n",
+   "test_count": 6
+  },
+  {
+   "name": "line-1-zto-witness-packet-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-witness-packet",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 15 tests in 0.380s\nOK\n",
+   "test_count": 15
+  },
+  {
+   "name": "line-1-zto-witness-policy-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-witness-policy",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 14 tests in 0.243s\nOK\n",
+   "test_count": 14
+  },
+  {
+   "name": "line-1-zto-witness-quorum-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-witness-quorum",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 4 tests in 0.050s\nOK\n",
+   "test_count": 4
+  },
+  {
+   "name": "line-1-zto-witness-replay-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-witness-replay",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 20 tests in 0.287s\nOK\n",
+   "test_count": 20
+  },
+  {
+   "name": "line-1-zto-witness-routes-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-1/tools/zto-witness-routes",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 16 tests in 0.053s\nOK\n",
+   "test_count": 16
+  },
+  {
+   "name": "line-2-allowance-caps-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/allowance-caps",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 12 tests in 0.277s\nOK\n",
+   "test_count": 12
+  },
+  {
+   "name": "line-2-allowance-changes-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/allowance-changes",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 29 tests in 0.618s\nOK\n",
+   "test_count": 29
+  },
+  {
+   "name": "line-2-allowance-lens-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/allowance-lens",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 22 tests in 0.041s\nOK\n",
+   "test_count": 22
+  },
+  {
+   "name": "line-2-allowance-union-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/allowance-union",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 24 tests in 0.050s\nOK\n",
+   "test_count": 24
+  },
+  {
+   "name": "line-2-approval-coverage-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/approval-coverage",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 6 tests in 0.007s\nOK\n",
+   "test_count": 6
+  },
+  {
+   "name": "line-2-approval-draft-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/approval-draft",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 3 tests in 0.004s\nOK\n",
+   "test_count": 3
+  },
+  {
+   "name": "line-2-bundle-refresh-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/bundle-refresh",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 15 tests in 0.128s\nOK\n",
+   "test_count": 15
+  },
+  {
+   "name": "line-2-code-bytes-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/code-bytes",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 16 tests in 0.238s\nOK\n",
+   "test_count": 16
+  },
+  {
+   "name": "line-2-code-context-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/code-context",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 12 tests in 0.204s\nOK\n",
+   "test_count": 12
+  },
+  {
+   "name": "line-2-draft-age-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/draft-age",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 7 tests in 0.030s\nOK\n",
+   "test_count": 7
+  },
+  {
+   "name": "line-2-draft-bundle-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/draft-bundle",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 11 tests in 0.032s\nOK\n",
+   "test_count": 11
+  },
+  {
+   "name": "line-2-draft-refresh-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/draft-refresh",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 4 tests in 0.009s\nOK\n",
+   "test_count": 4
+  },
+  {
+   "name": "line-2-draft-witness-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/draft-witness",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 4 tests in 0.004s\nOK\n",
+   "test_count": 4
+  },
+  {
+   "name": "line-2-permission-delta-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/permission-delta",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 5 tests in 0.002s\nOK\n",
+   "test_count": 5
+  },
+  {
+   "name": "line-2-permission-gate-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/permission-gate",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 20 tests in 0.022s\nOK\n",
+   "test_count": 20
+  },
+  {
+   "name": "line-2-policy-transition-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/policy-transition",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 18 tests in 0.016s\nOK\n",
+   "test_count": 18
+  },
+  {
+   "name": "line-2-receipt-exposure-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/receipt-exposure",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 13 tests in 0.136s\nOK\n",
+   "test_count": 13
+  },
+  {
+   "name": "line-2-spender-exposure-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-2/tools/spender-exposure",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 10 tests in 0.136s\nOK\n",
+   "test_count": 10
+  },
+  {
+   "name": "line-3-code-ancestry-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-ancestry",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 23 tests in 1.450s\nOK\n",
+   "test_count": 23
+  },
+  {
+   "name": "line-3-code-call-query-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-call-query",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 12 tests in 1.439s\nOK\n",
+   "test_count": 12
+  },
+  {
+   "name": "line-3-code-call-routes-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-call-routes",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 11 tests in 0.378s\nOK\n",
+   "test_count": 11
+  },
+  {
+   "name": "line-3-code-calls-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-calls",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 24 tests in 0.665s\nOK\n",
+   "test_count": 24
+  },
+  {
+   "name": "line-3-code-changes-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-changes",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 10 tests in 0.040s\nOK\n",
+   "test_count": 10
+  },
+  {
+   "name": "line-3-code-constants-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-constants",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 16 tests in 0.462s\nOK\n",
+   "test_count": 16
+  },
+  {
+   "name": "line-3-code-delta-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-delta",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 21 tests in 1.242s\nOK\n",
+   "test_count": 21
+  },
+  {
+   "name": "line-3-code-dependency-frontier-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-dependency-frontier",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 7 tests in 1.880s\nOK\n",
+   "test_count": 7
+  },
+  {
+   "name": "line-3-code-frontier-checkpoint-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-frontier-checkpoint",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 18 tests in 3.213s\nOK\n",
+   "test_count": 18
+  },
+  {
+   "name": "line-3-code-frontier-delta-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-frontier-delta",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 17 tests in 5.431s\nOK\n",
+   "test_count": 17
+  },
+  {
+   "name": "line-3-code-frontier-review-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-frontier-review",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 8 tests in 0.662s\nOK\n",
+   "test_count": 8
+  },
+  {
+   "name": "line-3-code-lens-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-lens",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 16 tests in 0.105s\nOK\n",
+   "test_count": 16
+  },
+  {
+   "name": "line-3-code-metadata-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-metadata",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 23 tests in 1.411s\nOK\n",
+   "test_count": 23
+  },
+  {
+   "name": "line-3-code-opcodes-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-opcodes",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 6 tests in 0.062s\nOK\n",
+   "test_count": 6
+  },
+  {
+   "name": "line-3-code-proof-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-proof",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 30 tests in 0.646s\nOK\n",
+   "test_count": 30
+  },
+  {
+   "name": "line-3-code-review-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-review",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 19 tests in 0.857s\nOK\n",
+   "test_count": 19
+  },
+  {
+   "name": "line-3-code-routes-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-routes",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 25 tests in 0.550s\nOK\n",
+   "test_count": 25
+  },
+  {
+   "name": "line-3-code-set-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-set",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 17 tests in 1.937s\nOK\n",
+   "test_count": 17
+  },
+  {
+   "name": "line-3-code-surface-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-surface",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 25 tests in 0.800s\nOK\n",
+   "test_count": 25
+  },
+  {
+   "name": "line-3-code-target-proofs-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-target-proofs",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 16 tests in 3.978s\nOK\n",
+   "test_count": 16
+  },
+  {
+   "name": "line-3-code-targets-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-3/tools/code-targets",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 14 tests in 1.040s\nOK\n",
+   "test_count": 14
+  },
+  {
+   "name": "line-4-call-changes-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/call-changes",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 36 tests in 0.031s\nOK\n",
+   "test_count": 36
+  },
+  {
+   "name": "line-4-call-expectation-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/call-expectation",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 23 tests in 0.020s\nOK\n",
+   "test_count": 23
+  },
+  {
+   "name": "line-4-call-rehearsal-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/call-rehearsal",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 20 tests in 0.113s\nOK\n",
+   "test_count": 20
+  },
+  {
+   "name": "line-4-call-witness-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/call-witness",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 8 tests in 0.002s\nOK\n",
+   "test_count": 8
+  },
+  {
+   "name": "line-4-calldata-lens-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/calldata-lens",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 7 tests in 0.058s\nOK\n",
+   "test_count": 7
+  },
+  {
+   "name": "line-4-gas-budget-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/gas-budget",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 23 tests in 0.133s\nOK\n",
+   "test_count": 23
+  },
+  {
+   "name": "line-4-gas-cap-rehearsal-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/gas-cap-rehearsal",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 21 tests in 0.010s\nOK\n",
+   "test_count": 21
+  },
+  {
+   "name": "line-4-gas-lens-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/gas-lens",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 9 tests in 0.004s\nOK\n",
+   "test_count": 9
+  },
+  {
+   "name": "line-4-rehearsal-binding-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/rehearsal-binding",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 20 tests in 0.011s\nOK\n",
+   "test_count": 20
+  },
+  {
+   "name": "line-4-rehearsal-expiry-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/rehearsal-expiry",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 6 tests in 0.005s\nOK\n",
+   "test_count": 6
+  },
+  {
+   "name": "line-4-rehearsal-report-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/rehearsal-report",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 14 tests in 0.163s\nOK\n",
+   "test_count": 14
+  },
+  {
+   "name": "line-4-rehearsal-set-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/rehearsal-set",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 27 tests in 0.023s\nOK\n",
+   "test_count": 27
+  },
+  {
+   "name": "line-4-relay-rehearsal-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/relay-rehearsal",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 10 tests in 0.084s\nOK\n",
+   "test_count": 10
+  },
+  {
+   "name": "line-4-release-gate-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/release-gate",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 10 tests in 0.016s\nOK\n",
+   "test_count": 10
+  },
+  {
+   "name": "line-4-return-bounds-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/return-bounds",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 17 tests in 0.031s\nOK\n",
+   "test_count": 17
+  },
+  {
+   "name": "line-4-return-lens-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/return-lens",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 12 tests in 0.005s\nOK\n",
+   "test_count": 12
+  },
+  {
+   "name": "line-4-return-relations-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/return-relations",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 19 tests in 0.033s\nOK\n",
+   "test_count": 19
+  },
+  {
+   "name": "line-4-revert-expectation-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/revert-expectation",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 19 tests in 0.012s\nOK\n",
+   "test_count": 19
+  },
+  {
+   "name": "line-4-set-expiry-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "line-4/tools/set-expiry",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 21 tests in 0.021s\nOK\n",
+   "test_count": 21
+  },
+  {
+   "name": "zto-witness-replay-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-witness-replay/zto_witness_replay.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "6b6aaff1747a3e1ea3d343de4325e692e963c21c56d5f67e806e1bddb1845f77",
+   "summary": {
+    "schema": "zto-witness-replay-report-v1",
+    "status": "withheld",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "allowance-code-context-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/code-context/code_context.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "c39090474d14501f4ca0f21a23f17ba49eae05fc8304e035e542ba0619cd5799",
+   "summary": {
+    "schema": "allowance-code-context-v1",
+    "status": "context_matched",
+    "measured_pair_count": 19,
+    "block_number": 26187572
+   }
+  },
+  {
+   "name": "code-dependency-frontier-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-dependency-frontier/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "50fbd35913736cc9ab85079a6e43c6bb0c6358e6899428e89ca4e91b758da792",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "rehearsal-report-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/rehearsal-report/rehearsal_report.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "0461c53840e7d39475d836b4b71912b5ed4b7d0d9c9786aa8687fd0a1189bcf7",
+   "summary": {
+    "status": "ready-to-review",
+    "block": "0x18f9676",
+    "limits": "Historical provider-reported evidence only. No authenticated ABI, chain, code proof, freshness, authority, gas, state effects or future-execution guarantee. No transaction is signed or sent. An omitted sender remains omitted; raw returns have no inferred meaning. ready-to-review is not approval to transact."
+   }
+  },
+  {
+   "name": "proof-backed-report-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/rehearsal-report/proof_report.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "8773bd7de3f611f1b1b592beee429536749297ec8ca4fa6c62b066740da69b36",
+   "summary": {
+    "schema": "proof-backed-rehearsal-report-v1",
+    "status": "ready-to-review",
+    "block": "0x18f9518",
+    "limits": "The ABI signature and return layout are reviewer assertions. Historical RPC returns are not locally executed or proved; the supplied header is not independently authenticated. Selector presence does not prove reachability, and this report gives no freshness, state-effect, authority or future-execution guarantee."
+   }
+  },
+  {
+   "name": "dependency-backed-report-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/frontier-report/frontier_report.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "b5f4bc34e817cd14131bcc35ab6089c075b075a8ef23f81500dfc7f81a8a7add",
+   "summary": {
+    "schema": "dependency-backed-call-report-v1",
+    "status": "ready-to-review-bounded-scan",
+    "limits": "The frontier is a structural scan of supplied proved runtimes, not call-specific execution or reachability. Open sites might be irrelevant to this call; no-open-sites does not establish complete dependencies. Proof inclusion is relative to an unauthenticated supplied header. Call returns and reviewer ABI choices remain unproved. No freshness, permission, economic safety, state effects or future execution is established."
+   }
+  },
+  {
+   "name": "dependency-backed-report-open-frontier",
+   "command": [
+    "python3",
+    "-B",
+    "shared/frontier-report/frontier_report.py",
+    "--bundle",
+    "line-3/tools/code-routes/imd-proof.json",
+    "--observation",
+    "shared/frontier-report/imd-call.json",
+    "--signature",
+    "totalSupply()",
+    "--types",
+    "uint256",
+    "--target-proof",
+    "line-3/tools/code-target-proofs/imd-target-proof.json"
+   ],
+   "expected_exit": 3,
+   "exit": 3,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "c8a5d992a8ed047de1ff78223bf6bdba0e74968bba0f3ec91280de8dd8ed8793",
+   "summary": {
+    "schema": "dependency-backed-call-report-v1",
+    "status": "review-with-open-frontier",
+    "limits": "The frontier is a structural scan of supplied proved runtimes, not call-specific execution or reachability. Open sites might be irrelevant to this call; no-open-sites does not establish complete dependencies. Proof inclusion is relative to an unauthenticated supplied header. Call returns and reviewer ABI choices remain unproved. No freshness, permission, economic safety, state effects or future execution is established."
+   }
+  },
+  {
+   "name": "zto-witness-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-witness/zto_witness.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "2a5baf8ddd843c50d84850ca7a5b88cf4658fa6c1a248a46e684b1bc23fc82a7",
+   "summary": {
+    "schema": "zto-witness-demo-v1",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "relations-surface-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/return-relations/relations_surface.py",
+    "demo"
+   ],
+   "expected_exit": 2,
+   "exit": 2,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "f6364a6da3d60088e81685591fc7409d94f612321a60e11e98c7d5882fee8f6d",
+   "summary": {
+    "schema": "relations-surface-context-v1",
+    "verdict": "withheld",
+    "limits": "Historical independent call returns remain provider claims. Code proofs bind to supplied headers, not authenticated consensus. Signatures, integer types, units, review time and relations are reviewer choices. Structural selector evidence does not prove behavior. No current state, authority, future execution or stateful sequence is established. Nothing is signed or sent."
+   }
+  },
+  {
+   "name": "zto-target-check-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-target-check/zto_target_check.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "2a24d90ac89c9c8578bf87a1daf6ee25dab746c6784d98eabd1739fab51ddfad",
+   "summary": {
+    "schema": "zto-target-check-result-v1",
+    "status": "accepted"
+   }
+  },
+  {
+   "name": "policy-transition-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/policy-transition/policy_transition.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "153b93cfafd180dbc9b4981e77e2566e294fef2244552ca151c2c871a111597b",
+   "summary": {
+    "schema": "permission-policy-transition-v1",
+    "decision": "deny_measured_pairs"
+   }
+  },
+  {
+   "name": "code-call-query-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-call-query/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "4243c6fc35073cd58e8c88d9353ea808129da3f4a4a37b646fc7912902fa0bd7",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "code-targets-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-targets/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "828e6542fff34e801def0666fa5220062b40c211a38cf0401676378ecdc157b9",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "return-relations-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/return-relations/return_relations.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "c9e1b85244ce676ee98afba5b48285eff2d579bd9a0a73027177d2fe92285087",
+   "summary": {
+    "schema": "rehearsal-return-relations-v1",
+    "verdict": "consistent",
+    "block": {
+     "number": "0x18f99d1",
+     "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+     "timestamp": "0x6aceffd7"
+    },
+    "limits": "Relations compare raw integers under reviewer-declared ABI layouts and units; neither ABI nor economic meaning is authenticated. The full set must bind at one exact historical block within the explicit review-time policy. Review time is supplied, not a live clock. Provider claims and content digests do not prove chain authenticity or reviewer identity. Calls are independent, not a stateful sequence. No current state, future execution, authority, gas or state effects are established. No call is released, signed or sent."
+   }
+  },
+  {
+   "name": "shared-return-relations-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/return-relations/return_relations.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "c9e1b85244ce676ee98afba5b48285eff2d579bd9a0a73027177d2fe92285087",
+   "summary": {
+    "schema": "rehearsal-return-relations-v1",
+    "verdict": "consistent",
+    "block": {
+     "number": "0x18f99d1",
+     "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+     "timestamp": "0x6aceffd7"
+    },
+    "limits": "Relations compare raw integers under reviewer-declared ABI layouts and units; neither ABI nor economic meaning is authenticated. The full set must bind at one exact historical block within the explicit review-time policy. Review time is supplied, not a live clock. Provider claims and content digests do not prove chain authenticity or reviewer identity. Calls are independent, not a stateful sequence. No current state, future execution, authority, gas or state effects are established. No call is released, signed or sent."
+   }
+  },
+  {
+   "name": "shared-release-gate-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/release-gate/release_gate.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "30a92ae86d5b5e49ae5e53664e336c705961da5e15b7e5930ba2dd40fe6fc5a8",
+   "summary": {
+    "schema": "rehearsal-release-gate-v1",
+    "verdict": "ready",
+    "limits": "Ready means only that one explicit call exactly equals one member of a complete matching historical rehearsal set within the reviewer-declared age window. It is not approval, authorization, a signature, or permission to send. The caller may be a contract and need not be an available transaction origin. No current state, future inclusion, gas, fees, nonce, effects, ABI authenticity, authority, wallet, provider identity, or chain authenticity is established. Calls in the set are independent; no writes are simulated. Nothing is sent."
+   }
+  },
+  {
+   "name": "proof-context-release-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/release-gate/release_surface.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "80307973ceedaf5a75884ec503c134f8721a08dfccbe6f0b730bbbb9838df5b3",
+   "summary": {
+    "schema": "proof-context-release-v1",
+    "verdict": "ready",
+    "limits": "Ready is a historical evidence handoff, never permission to transact. The sender can be a contract and need not be an available transaction origin. Review time, age policy, signature and return layout are reviewer inputs. Supplied headers are not consensus-authenticated; call returns are RPC claims, not proved state effects. Selector matching does not authenticate an ABI or establish reachability. No current state, authorization, gas, nonce, fees, atomic sequence or future execution is established. Nothing is sent."
+   }
+  },
+  {
+   "name": "proof-context-release-expired-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/release-gate/release_surface.py",
+    "expired-demo"
+   ],
+   "expected_exit": 2,
+   "exit": 2,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "ccc836c6ca52606e1faa5f411d5150cf973c5b5152c7c9fbeb344412d47966c4",
+   "summary": {
+    "schema": "proof-context-release-v1",
+    "verdict": "withheld",
+    "limits": "Ready is a historical evidence handoff, never permission to transact. The sender can be a contract and need not be an available transaction origin. Review time, age policy, signature and return layout are reviewer inputs. Supplied headers are not consensus-authenticated; call returns are RPC claims, not proved state effects. Selector matching does not authenticate an ABI or establish reachability. No current state, authorization, gas, nonce, fees, atomic sequence or future execution is established. Nothing is sent."
+   }
+  },
+  {
+   "name": "proof-context-release-live-replay",
+   "command": [
+    "python3",
+    "-B",
+    "shared/release-gate/release_surface.py",
+    "check",
+    "shared/release-gate/live-14/evidence.json",
+    "shared/release-gate/live-14/policy.json",
+    "shared/release-gate/live-14/request.json",
+    "shared/release-gate/live-14/manifest.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "3874306ed8ef4c5113a186215c45e1aa414d8096586ef8e96e88b3dd6bb23b7b",
+   "summary": {
+    "schema": "proof-context-release-v1",
+    "verdict": "ready",
+    "limits": "Ready is a historical evidence handoff, never permission to transact. The sender can be a contract and need not be an available transaction origin. Review time, age policy, signature and return layout are reviewer inputs. Supplied headers are not consensus-authenticated; call returns are RPC claims, not proved state effects. Selector matching does not authenticate an ABI or establish reachability. No current state, authorization, gas, nonce, fees, atomic sequence or future execution is established. Nothing is sent."
+   }
+  },
+  {
+   "name": "zto-target-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-target/zto_target.py",
+    "--input",
+    "ZTO",
+    "--target",
+    "0.0001",
+    "--ceiling",
+    "10",
+    "--slippage-bps",
+    "100"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "7922f3e1f9d6f87c51e6a20ccbd0c79a8787cc537be2481b2ea01d59a938e419",
+   "summary": {
+    "schema": "zto-target-report-v1",
+    "status": "target_reached",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "permission-delta-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/permission-delta/permission_delta.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "80ee47238746eade583c4fc359dbc10485ed25584d4f602291fc8042096a4561",
+   "summary": {
+    "schema": "permission-delta-digest-v1",
+    "decision": "no_permission_change_measured"
+   }
+  },
+  {
+   "name": "code-call-routes-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-call-routes/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "b8803f96701563ef23e1f0458043ab2174a53a00b24ae45c72266189c45b8186",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "release-gate-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/release-gate/release_gate.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "30a92ae86d5b5e49ae5e53664e336c705961da5e15b7e5930ba2dd40fe6fc5a8",
+   "summary": {
+    "schema": "rehearsal-release-gate-v1",
+    "verdict": "ready",
+    "limits": "Ready means only that one explicit call exactly equals one member of a complete matching historical rehearsal set within the reviewer-declared age window. It is not approval, authorization, a signature, or permission to send. The caller may be a contract and need not be an available transaction origin. No current state, future inclusion, gas, fees, nonce, effects, ABI authenticity, authority, wallet, provider identity, or chain authenticity is established. Calls in the set are independent; no writes are simulated. Nothing is sent."
+   }
+  },
+  {
+   "name": "fresh-set-surface-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/set-expiry/fresh_surface.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "999d9582801885156596c7f9368679c395bdec4e7d2366e1e043affb69346464",
+   "summary": {
+    "schema": "fresh-set-surface-context-v1",
+    "verdict": "aligned",
+    "limits": "The explicit review time and age window are reviewer inputs, not a trusted clock. Historical provider calls and supplied proof headers are not authenticated. All calls are independent; no shared writes, atomic sequence, current state, authority, gas, effects or future execution is established. Signatures and return types are reviewer choices. Stale or unbound sets skip code verification and release no decoded values. Nothing is sent."
+   }
+  },
+  {
+   "name": "fresh-set-surface-expired-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/set-expiry/fresh_surface.py",
+    "expired-demo"
+   ],
+   "expected_exit": 2,
+   "exit": 2,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "879a4ce044d4a8b92dd46dab8ba708cc170a2d12f44d6167febe635cfb7f1a60",
+   "summary": {
+    "schema": "fresh-set-surface-context-v1",
+    "verdict": "withheld",
+    "limits": "The explicit review time and age window are reviewer inputs, not a trusted clock. Historical provider calls and supplied proof headers are not authenticated. All calls are independent; no shared writes, atomic sequence, current state, authority, gas, effects or future execution is established. Signatures and return types are reviewer choices. Stale or unbound sets skip code verification and release no decoded values. Nothing is sent."
+   }
+  },
+  {
+   "name": "shared-set-expiry-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/set-expiry/set_expiry.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "da3cbd12d61d8b286e9a0f4bca5f01bc60da6a88c815616b1fdff93013847153",
+   "summary": {
+    "schema": "rehearsal-set-expiry-v1",
+    "verdict": "fresh",
+    "limits": "Fresh means only complete matching historical provider evidence inside the reviewer-declared age window. The review time is an input, not an independently verified clock. The window is a review policy, not a guarantee against state changes. No current state, future execution, gas, authority, ABI authenticity, provider identity or chain authenticity is established. Calls are independent and do not share simulated writes. No network request or transaction is made."
+   }
+  },
+  {
+   "name": "zto-drift-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-drift/zto_drift.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "c29927b47e1b2ea5db20885ce263fcf454d7a5ee89e66e4cf435dbfe66d143b2",
+   "summary": {
+    "schema": "zto-drift-report-v1",
+    "status": "compared"
+   }
+  },
+  {
+   "name": "spender-exposure-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/spender-exposure/spender_exposure.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "8c4438334972ae18b5b70d828ae1a79aa8fbdab3768cd9e94599f7976bdb0c57",
+   "summary": {
+    "schema": "permission-spender-exposure-v1",
+    "measured_pair_count": 19,
+    "block": {
+     "block_number": 26187572,
+     "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f",
+     "block_time_utc": "2026-10-14T01:52:23+00:00",
+     "sources": [
+      "https://ethereum-rpc.publicnode.com"
+     ]
+    }
+   }
+  },
+  {
+   "name": "code-calls-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-calls/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "4871fd8435e29abcacf65ad4aafd8b757ea86f0b0c3df7c6756e46fcfb0877ad",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "set-expiry-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/set-expiry/set_expiry.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "da3cbd12d61d8b286e9a0f4bca5f01bc60da6a88c815616b1fdff93013847153",
+   "summary": {
+    "schema": "rehearsal-set-expiry-v1",
+    "verdict": "fresh",
+    "limits": "Fresh means only complete matching historical provider evidence inside the reviewer-declared age window. The review time is an input, not an independently verified clock. The window is a review policy, not a guarantee against state changes. No current state, future execution, gas, authority, ABI authenticity, provider identity or chain authenticity is established. Calls are independent and do not share simulated writes. No network request or transaction is made."
+   }
+  },
+  {
+   "name": "shared-rehearsal-set-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/rehearsal-set/rehearsal_set.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "f2140b473dc7f324ba400eea469c4867470f7a499ac94e8c8f62a367c3f4e289",
+   "summary": {
+    "schema": "rehearsal-set-v1",
+    "verdict": "bound",
+    "block": {
+     "number": "0x18f99d1",
+     "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+     "timestamp": "0x6aceffd7"
+    },
+    "limits": "Bound means complete matching historical provider evidence for independent calls at one exact block. Calls do not share simulated writes: this is not a sequence, multicall, atomic transaction, or state-effect simulation. Order has no execution meaning. Expected bytes are supplied by the reviewer; an expected ABI false can match. No ABI authentication, gas, fees, nonce, authority, current state or future success is established. Digests identify content, not authenticity. Nothing is sent."
+   }
+  },
+  {
+   "name": "set-surface-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/rehearsal-set/set_surface.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "3d78f8f939ffda486f379a9782969776f7504b7a4f7a22443a6cdadea0f16970",
+   "summary": {
+    "schema": "set-surface-context-v1",
+    "verdict": "aligned",
+    "block": {
+     "number": "0x18f9518",
+     "hash": "0xb6e55dcdf6ded6229f188d80f0b986222b198d104e09e9194bb8d97539355a06",
+     "timestamp": "0x6acec6d7"
+    },
+    "limits": "Independent historical calls, not a stateful sequence or multicall. Signatures and return layouts are reviewer choices, not authenticated ABI. Selector patterns do not establish reachability or behavior. Code inclusion is relative to supplied headers; call returns remain unproven RPC claims. An anchor hash is an equality check, not authentication. No current-state, authority, gas, effects, safety, or future-execution guarantee. Nothing is sent."
+   }
+  },
+  {
+   "name": "zto-bundle-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-bundle/zto_bundle.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "14f524a5b7b1b5e650b6f7b992257620a742eab30cd2af547b9561524c19500f",
+   "summary": {
+    "schema": "zto-evidence-bundle-verification-v1",
+    "status": "accepted",
+    "block": {
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "number": "0x18f8a44",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "receipt-exposure-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/receipt-exposure/receipt_exposure.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "3950fb45029d833c5826871feb5379371ce6ca743ec26bf3c5484de96ece34ac",
+   "summary": {
+    "schema": "permission-receipt-exposure-v1",
+    "measured_pair_count": 19,
+    "block": {
+     "block_number": 26187572,
+     "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f",
+     "block_time_utc": "2026-10-14T01:52:23+00:00",
+     "sources": [
+      "https://ethereum-rpc.publicnode.com"
+     ]
+    }
+   }
+  },
+  {
+   "name": "allowance-caps-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/allowance-caps/allowance_caps.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "b4f18a97f9fa677d588b6b7eb1cef5b3cd37d93f1f77be4887aa642135abd333",
+   "summary": {
+    "schema": "permission-cap-comparison-v1",
+    "measured_pair_count": 19,
+    "block": {
+     "block_number": 26187572,
+     "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f",
+     "block_time_utc": "2026-10-14T01:52:23+00:00",
+     "sources": [
+      "https://ethereum-rpc.publicnode.com"
+     ]
+    }
+   }
+  },
+  {
+   "name": "code-metadata-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-metadata/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "115e4123af0667b6b79c3fed0119a0bfb1a465ef6b08f4d2c07dbd33b0db1645",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "code-routes-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-routes/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "83bc5c5f7037f13eeceaf228881865cc60b2b77867c25b8a4471620675e6bc90",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "rehearsal-binding-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/rehearsal-binding/rehearsal_binding.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "7e881cfd9b7a917490c4fa67a11c16cadc34104c7c00797d0ca844c2114becc0",
+   "summary": {
+    "schema": "rehearsal-binding-v1",
+    "verdict": "bound",
+    "limits": "Bound means only that this explicit call and expected bytes match saved provider evidence at the exact reviewed historical block. It is not approval to transact. The sender may be a contract: this does not prove that anyone can originate the call. No nonce, gas, fees, access list, wallet wrapping, signatures, state effects, ABI meaning, balances, current state or future success are checked. Even a returned ABI false may be bound if those exact bytes were expected. Digests identify input content; they do not authenticate a provider or the chain. Nothing is sent."
+   }
+  },
+  {
+   "name": "rehearsal-set-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/rehearsal-set/rehearsal_set.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "f2140b473dc7f324ba400eea469c4867470f7a499ac94e8c8f62a367c3f4e289",
+   "summary": {
+    "schema": "rehearsal-set-v1",
+    "verdict": "bound",
+    "block": {
+     "number": "0x18f99d1",
+     "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+     "timestamp": "0x6aceffd7"
+    },
+    "limits": "Bound means complete matching historical provider evidence for independent calls at one exact block. Calls do not share simulated writes: this is not a sequence, multicall, atomic transaction, or state-effect simulation. Order has no execution meaning. Expected bytes are supplied by the reviewer; an expected ABI false can match. No ABI authentication, gas, fees, nonce, authority, current state or future success is established. Digests identify content, not authenticity. Nothing is sent."
+   }
+  },
+  {
+   "name": "surface-call-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/surface-return/surface_call.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "f84802a1324be260076920c0e1f5943916c259e7416d265f42680be516de265c",
+   "summary": {
+    "schema": "surface-call-context-v1",
+    "verdict": "aligned",
+    "limits": "The signature and return layout are reviewer choices, not an authenticated ABI. A selector collision or unreachable pattern can match. Code inclusion is relative to the supplied header; its authenticity is not established by this tool. Call arguments and returns are historical RPC claims, not locally executed or proved state effects. No freshness, balance availability for spending, permissions, gas, routing, safety or future execution is established. Nothing is signed or sent."
+   }
+  },
+  {
+   "name": "bundle-refresh-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/bundle-refresh/bundle_refresh.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "af999ac791eac49545c6b4565792d4613392ac744763bdb41ebb4c90b39da283",
+   "summary": {
+    "schema": "permission-bundle-refresh-report-v1",
+    "status": "release_bundle_for_owner_review"
+   }
+  },
+  {
+   "name": "code-constants-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-constants/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "b9e2b2090cfc62df1f54a3a199682f5c016f190095f188e32f46000181593d61",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "calldata-lens-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/calldata-lens/calldata_lens.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "3716560c72356c647bdd40ef743dd3a05a4f75c206ff63c87e01e3633153f7d9",
+   "summary": {
+    "schema": "calldata-lens-v1",
+    "verdict": "decoded",
+    "block": {
+     "number": "0x18f88a5",
+     "hash": "0x644962fe0c9268aea3a3222fc32fc97a53030aab1f5298f5a570cf540bdaaeea",
+     "timestamp": "0x6ace30d7"
+    },
+    "limits": "Argument types are supplied by the reviewer and are not inferred from the selector. A decoded calldata payload does not authenticate an ABI, establish intended effects, permissions, balances, gas, safety, current state, or future execution. It makes no network request and does not sign, send, pay, post, or deploy anything."
+   }
+  },
+  {
+   "name": "zto-handoff-evidence",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-handoff/zto_handoff.py",
+    "--demo",
+    "--verify-evidence",
+    "line-1/tools/zto-handoff/demo-handoff.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "756e6c143e37157764efe7145cdbf4986334fd90cbb40e0e5a73f71afea70fe1",
+   "summary": {
+    "schema": "zto-bound-handoff-evidence-verification-v1",
+    "status": "accepted"
+   }
+  },
+  {
+   "name": "surface-return-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/surface-return/surface_return.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "3bc993349c5fe050c872b032cb2d169408587ce1abe06256c1050965d763149d",
+   "summary": {
+    "schema": "surface-return-context-v1",
+    "verdict": "aligned",
+    "limits": "Aligned historical evidence is not a verified ABI, routing or reachability proof, code approval, current-state check, permission to transact or execution guarantee. Return types and signature are caller choices. The code proof is unanchored unless the caller independently supplies an authentic block hash; call returns remain unproven RPC claims even when code inclusion verifies. Nothing is signed or sent."
+   }
+  },
+  {
+   "name": "surface-return-block-mismatch",
+   "command": [
+    "python3",
+    "-B",
+    "shared/surface-return/surface_return.py",
+    "--bundle",
+    "shared/surface-return/zto-proof.json",
+    "--observation",
+    "shared/surface-return/zto-other-block-call.json",
+    "--signature",
+    "totalSupply()",
+    "--types",
+    "uint256"
+   ],
+   "expected_exit": 2,
+   "exit": 2,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "3c77ce5f64ed6be624ce5fd35a1a6d40b4e7227234db7f7972d3656f7bc81a19",
+   "summary": {
+    "schema": "surface-return-context-v1",
+    "verdict": "mismatch",
+    "limits": "Aligned historical evidence is not a verified ABI, routing or reachability proof, code approval, current-state check, permission to transact or execution guarantee. Return types and signature are caller choices. The code proof is unanchored unless the caller independently supplies an authentic block hash; call returns remain unproven RPC claims even when code inclusion verifies. Nothing is signed or sent."
+   }
+  },
+  {
+   "name": "return-lens-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/return-lens/return_lens.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "d715f71c8ea2a494ebe285c9e6733f029349646ad0e8415416773b3809407a37",
+   "summary": {
+    "schema": "return-lens-v1",
+    "verdict": "decoded",
+    "block": {
+     "number": "0x18f88a5",
+     "hash": "0x644962fe0c9268aea3a3222fc32fc97a53030aab1f5298f5a570cf540bdaaeea",
+     "timestamp": "0x6ace30d7"
+    },
+    "limits": "Types are supplied by the reviewer, not inferred or authenticated. Decoding does not establish the contract ABI, expected outcome, safety, state changes, gas, canonicality or future execution. Historical provider claims only. No transaction is signed or sent."
+   }
+  },
+  {
+   "name": "code-surface-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-surface/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "f65af8f7a171ee94be0097fd683da312747d5deaba785fe192e2a5c3e235062d",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "code-delta-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-delta/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "7cd7a004e011b001cb7c9b2696c6e68f0d8db2b5399211171bcdda37b5c033fa",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "draft-bundle-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/draft-bundle/draft_bundle.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "255e7f765ba762da49164a483dfa669eb37d865464fb153a28bea16d961c35d0",
+   "summary": {
+    "schema": "permission-draft-bundle-report-v1",
+    "status": "complete_reviewed_bundle",
+    "block_number": 26184897
+   }
+  },
+  {
+   "name": "draft-age-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/draft-age/draft_age.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "61dba8399b816f9073db0f9af70326079221a0bbad2f211431276a4a045bfc25",
+   "summary": {
+    "schema": "allowance-draft-age-v1",
+    "status": "release_for_owner_review"
+   }
+  },
+  {
+   "name": "rehearsal-expiry-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/rehearsal-expiry/rehearsal_expiry.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "4c69db158b99e4335847df2f7d17aca1431e365554ac4c816d74a08eb826dcbf",
+   "summary": {
+    "schema": "rehearsal-expiry-v1",
+    "verdict": "match",
+    "limits": "An untrusted, historical RPC rehearsal is only compared with a declared Unix time. A current verdict does not prove a transaction is safe, executable, canonical, included, or unchanged now. It does not obtain a clock or make a network request. Nothing is signed, sent, paid, or deployed."
+   }
+  },
+  {
+   "name": "zto-handoff-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-handoff/zto_handoff.py",
+    "--demo",
+    "--amount",
+    "100000000"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "6806cc8cf65281470319fbfb47dcc2f602915d85e38a9d6ccfda571f8b158fc7",
+   "summary": {
+    "schema": "zto-bound-handoff-v1",
+    "status": "ready_for_human_review",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "zto-handoff-verify",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-handoff/zto_handoff.py",
+    "--verify",
+    "line-1/tools/zto-handoff/demo-handoff.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "25f4fc8782d60c976f2632783d99530f259ac56d435b59e66473524257529cc0",
+   "summary": {
+    "schema": "zto-bound-handoff-verification-v1",
+    "status": "accepted"
+   }
+  },
+  {
+   "name": "permission-revert-context-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/permission-revert-context/permission_revert_context.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "b3bc821e5b296434bd2f9a2327506809d685effe65d8a0f7b1aa7c9d98dd55ee",
+   "summary": {
+    "schema": "permission-revert-context-v1",
+    "verdict": "aligned"
+   }
+  },
+  {
+   "name": "zto-refresh-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-refresh/zto_refresh.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "250b369b17ab299a8aabacf200483c39532d62785e593683bfb42cf5a2bb2f5a",
+   "summary": {
+    "schema": "zto-refresh-report-v1",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "zto-review-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-review/zto_review.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "edb11a2d9b9ac92f55b64e0db10f0779c5ccd0ca5695d908e0fd51f3acea50ba",
+   "summary": {
+    "schema": "zto-review-result-v1",
+    "status": "accepted",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "draft-witness-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/draft-witness/draft_witness.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "aa1bc3ccf8f696cda23d227ea12ee0f5e6d5ee924e8373a8574185cd928c9485",
+   "summary": {
+    "schema": "allowance-draft-witness-v1",
+    "status": "exact_match",
+    "candidate_count": 3,
+    "block_number": 26184897
+   }
+  },
+  {
+   "name": "draft-refresh-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/draft-refresh/draft_refresh.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "8340ceca969a148d485ace5a97c7dff2e99dda881087bb3a326a7f1f45542e7f",
+   "summary": {
+    "schema": "allowance-draft-refresh-v1",
+    "status": "same_active_permission"
+   }
+  },
+  {
+   "name": "code-review-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-review/demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "783fb164f4252478e8ea5a1dfee2700517e4e04ccee84984963db676dbd66d67",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "code-set-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-set/code_set_demo.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "1dfdffb38949498465faf1f779e947372dff325c396b6b7644dae35768f1946b",
+   "summary": {
+    "demonstration_passed": true
+   }
+  },
+  {
+   "name": "relay-rehearsal-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/relay-rehearsal/relay_rehearsal.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "b75747b3c85ad7634579f5c9ef2a15a8a0626d63a56c186edf91f5c33ea88a64",
+   "summary": {
+    "block_number": 26186493,
+    "limits": "Provider-reported simulation at a finalized historical state; no transaction sent. No gas estimate, receipt, state diff, authenticity proof or guarantee of future execution. Contributor relay used; source is public attribution only. Upstream provider identity and independence are not verified."
+   }
+  },
+  {
+   "name": "revert-expectation-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/revert-expectation/revert_expectation.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "4cdecd0782bc73f281dc3201b518a7990679be5a282bcb0f8e82b2208d27418b",
+   "summary": {
+    "schema": "revert-expectation-v1",
+    "verdict": "match",
+    "limits": "Checks unauthenticated historical provider claims, not EVM execution proofs. A reported revert may be misclassified by an RPC. A match proves no access control, state effects, safety, canonicality, provider independence or future refusal. reported_revert requires no bytes and makes no claim about the reason. Nothing sent."
+   }
+  },
+  {
+   "name": "zto-archive-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-archive/zto_archive.py",
+    "--snapshot",
+    "line-1/tools/zto-path/observation.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "3ae158f798c35405121c7c65743151df9948cd5b795c23aa2582264e1cd0b6c2",
+   "summary": {
+    "schema": "zto-archive-report-v1"
+   }
+  },
+  {
+   "name": "zto-capacity-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-capacity/zto_capacity.py",
+    "--ceiling",
+    "1000000000",
+    "--slippage-bps",
+    "100"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "28cc11849cf7ee0bde29a46ce9a2a88d9f80b74246cdf35f6635bb04a41563be",
+   "summary": {
+    "schema": "zto-capacity-report-v1",
+    "status": "bounded",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "allowance-union-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/allowance-union/allowance_union.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "de4251f16eef30f8d1ba20d8787756c3f9d53a9f1939e378feafb79334b32be9",
+   "summary": {
+    "schema": "allowance-union-plan-v1",
+    "status": "requires_recheck"
+   }
+  },
+  {
+   "name": "approval-draft-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/approval-draft/approval_draft.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "b9f8f54ca4a4cf634c3f147cb53e8b843fc163013ec67ee2bafcb2b6fd702e7a",
+   "summary": {
+    "schema": "allowance-revoke-drafts-v1",
+    "block_number": 26184897
+   }
+  },
+  {
+   "name": "code-proof-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-proof/code_proof.py",
+    "--bundle",
+    "line-3/tools/code-proof/zto-proof.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "c69a3d5897eabd504304d25a8646d76dd7ca0995b15fa3774430539cc017e07c",
+   "summary": {
+    "schema": "code-proof-result-v1",
+    "block": {
+     "number": "0x18f8e40",
+     "hash": "0x57f561e7217307ab29f9fc3563627b97b97242261522b70429f2a873cf2593fd"
+    }
+   }
+  },
+  {
+   "name": "code-ancestry-zto-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-ancestry/code_ancestry.py",
+    "--bundle",
+    "line-3/tools/code-proof/zto-proof.json",
+    "--ancestry",
+    "line-3/tools/code-ancestry/zto-ancestry.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "fce54da4d4446283cc8cfbf90160f561c8df45753e058cfca1004bbeae1a90ec",
+   "summary": {
+    "schema": "code-ancestry-result-v1"
+   }
+  },
+  {
+   "name": "code-ancestry-imd-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-ancestry/code_ancestry.py",
+    "--bundle",
+    "line-3/tools/code-proof/imd-proof.json",
+    "--ancestry",
+    "line-3/tools/code-ancestry/zto-ancestry.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "3375ac740975c4cb6240ee9c82ebd7e37ac95992c2ebef448fac9aca0139bbc4",
+   "summary": {
+    "schema": "code-ancestry-result-v1"
+   }
+  },
+  {
+   "name": "call-expectation-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/call-expectation/call_expectation.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "28a8e9d5d6d65c07f082bb192e4a297a05f4c907f7ea7b132bf765992d4909dc",
+   "summary": {
+    "schema": "call-expectation-v1",
+    "verdict": "match",
+    "limits": "Checks saved provider claims against a declared expectation at one historical block. A match is not transaction success, token movement, gas estimation, authentication, provider independence or a guarantee of future execution. Nothing sent."
+   }
+  },
+  {
+   "name": "call-expectation-fresh-saved",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/call-expectation/call_expectation.py",
+    "check",
+    "line-4/tools/call-expectation/zto-live-observation.json",
+    "line-4/tools/call-expectation/zto-live-expectation.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "32bb2c7870a2a3db9c598e160789861c8a2b36fcd8a6ac0d0f0898a673cfadde",
+   "summary": {
+    "schema": "call-expectation-v1",
+    "verdict": "match",
+    "limits": "Checks saved provider claims against a declared expectation at one historical block. A match is not transaction success, token movement, gas estimation, authentication, provider independence or a guarantee of future execution. Nothing sent."
+   }
+  },
+  {
+   "name": "zto-band-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-band/zto_band.py",
+    "--snapshot",
+    "line-1/tools/zto-band/observation.json",
+    "--amount",
+    "1"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "364de8b8b6392b427203a378367a7f67d4c540ff33c65a2e01841f9d39f2d55c",
+   "summary": {
+    "schema": "zto-band-report-v1",
+    "status": "estimated",
+    "block_number": 26183687,
+    "estimate": {
+     "sqrt_price_after_x96": "20139840025375173566845336148180",
+     "input_to_pool_raw": "987500000000000000",
+     "fee_raw": "12500000000000000",
+     "input_consumed_raw": "1000000000000000000",
+     "input_unspent_raw": "0",
+     "output_raw": "15282142320759",
+     "output": "0.000015282142320759",
+     "fee": "0.0125",
+     "spot_movement_bps": "0.000055675552587221436987"
+    }
+   }
+  },
+  {
+   "name": "zto-path-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-path/zto_path.py",
+    "--snapshot",
+    "line-1/tools/zto-path/observation.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "6f765493b32a8bd0722c78e673958a660373f6f8636b00dc76c373b85ef7d334",
+   "summary": {
+    "schema": "zto-path-report-v1",
+    "status": "estimated",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    },
+    "estimate": {
+     "input_consumed_raw": "100000000000000000000000000",
+     "input_unspent_raw": "0",
+     "output_raw": "1196130391948897309582",
+     "output": "1196.130391948897309582",
+     "fee_raw": "1250000000000000000000000",
+     "fee": "1250000",
+     "sqrt_price_after_x96": "25739728713635116843076933370750",
+     "tick_after": 115674,
+     "liquidity_after_raw": "1395488085257384418720526"
+    }
+   }
+  },
+  {
+   "name": "zto-path-incomplete",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-path/zto_path.py",
+    "--snapshot",
+    "line-1/tools/zto-path/observation.json",
+    "--amount",
+    "1000000000"
+   ],
+   "expected_exit": 2,
+   "exit": 2,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "1f3623547a91fbca1a6b2f9ec077a8a257f10596c11d49af52f9713e81a5190e",
+   "summary": {
+    "schema": "zto-path-report-v1",
+    "status": "outside_coverage",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "zto-sizes-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/zto-sizes/zto_sizes.py",
+    "--amount",
+    "1",
+    "--amount",
+    "100000000",
+    "--amount",
+    "1000000000",
+    "--slippage-bps",
+    "100"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "7be2941d16924416336685d88f161ea23fd3d9eed4f25779b51220057042f349",
+   "summary": {
+    "schema": "zto-sizes-report-v1",
+    "candidate_count": 2,
+    "largest_candidate_input_raw": "100000000000000000000000000",
+    "block": {
+     "number": "0x18f8a44",
+     "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+     "timestamp": "0x6ace4457"
+    }
+   }
+  },
+  {
+   "name": "allowance-lens-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/allowance-lens/allowance_lens.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "315b3c658fb2b18fa9fde99a98bc908059b0c056b8f9e2d39c5ddf8b798d2d03",
+   "summary": {
+    "schema": "allowance-lens-report-v1",
+    "block_number": 26183751
+   }
+  },
+  {
+   "name": "allowance-changes-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/allowance-changes/allowance_changes.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "413c6553dfd332a4575e74d30b054352593dd20e529c62126ef9230b003695e7",
+   "summary": {
+    "schema": "allowance-changes-report-v1",
+    "counts": {
+     "unchanged": 19
+    }
+   }
+  },
+  {
+   "name": "permission-gate-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/permission-gate/permission_gate.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "14bad9182bcb7d537df8feaa9ccfe3661cd6437e596bb61e603253eefb49eac2",
+   "summary": {
+    "schema": "permission-gate-report-v1",
+    "decision": "deny",
+    "measured_pair_count": 19,
+    "violating_pair_count": 3,
+    "missing_pair_count": 0,
+    "block_number": 26184897
+   }
+  },
+  {
+   "name": "permission-gate-explicit-deny",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/permission-gate/permission_gate.py",
+    "--observation",
+    "line-2/tools/permission-gate/live-observation.json",
+    "--policy",
+    "line-2/tools/permission-gate/demo-policy.json"
+   ],
+   "expected_exit": 3,
+   "exit": 3,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "25761d005c00489cbda22adb06e85afd72a4a315ff067d030824d6ef9251ade7",
+   "summary": {
+    "schema": "permission-gate-report-v1",
+    "decision": "deny",
+    "measured_pair_count": 19,
+    "violating_pair_count": 3,
+    "missing_pair_count": 0,
+    "block_number": 26184897
+   }
+  },
+  {
+   "name": "code-lens-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-lens/code_lens.py",
+    "--verify",
+    "line-3/tools/code-lens/zto-observation.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "8cdd4d23b97857392bbee3259b72f797a3fcb71ed1c83be337d7bbb662e02db4",
+   "summary": {
+    "verified": true
+   }
+  },
+  {
+   "name": "code-changes-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-changes/code_changes.py",
+    "--before",
+    "line-3/tools/code-lens/zto-observation.json",
+    "--after",
+    "line-3/tools/code-changes/zto-after.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "c2b876a9a88109b94dd249d2f6c425e7a1be845bc3e378601510e09d7168812c",
+   "summary": {
+    "schema": "code-changes-v1",
+    "status": "unchanged-at-observed-blocks"
+   }
+  },
+  {
+   "name": "code-opcodes-zto",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-opcodes/code_opcodes.py",
+    "--report",
+    "line-3/tools/code-lens/zto-observation.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "30baa76ad27838b0a0cf06e465a61f9eae943fc9e6e2b7de8dc7baf04f70e85f",
+   "summary": {
+    "schema": "code-opcodes-v1",
+    "block": {
+     "number": "0x18f8885",
+     "hash": "0x4d3b4ac38ef90af80a7020933c15ed6b6b7175efe4c32cd20e1ab9385552fdd4"
+    }
+   }
+  },
+  {
+   "name": "code-opcodes-imd",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/code-opcodes/code_opcodes.py",
+    "--report",
+    "line-3/tools/code-lens/imd-observation.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "86ee24c7b0a4870d8880827af801732ff1ef852ad7a1501ecbdb31a322a7befe",
+   "summary": {
+    "schema": "code-opcodes-v1",
+    "block": {
+     "number": "0x18f8885",
+     "hash": "0x4d3b4ac38ef90af80a7020933c15ed6b6b7175efe4c32cd20e1ab9385552fdd4"
+    }
+   }
+  },
+  {
+   "name": "call-rehearsal-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/call-rehearsal/rehearse.py",
+    "replay",
+    "line-4/tools/call-rehearsal/zto-observation.json"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "79b96deff822b132af814a7abef4b60e2498040f5d33302a3ff0bfb19cdde760",
+   "summary": {
+    "block_number": 26183845,
+    "limits": "Provider-reported simulation at a finalized historical state; no transaction sent. No gas estimate, receipt, state diff, authenticity proof or guarantee of future execution."
+   }
+  },
+  {
+   "name": "call-rehearsal-revert",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/call-rehearsal/rehearse.py",
+    "replay",
+    "line-4/tools/call-rehearsal/zto-revert-observation.json"
+   ],
+   "expected_exit": 1,
+   "exit": 1,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "8c5c766e01d270efd94d4063ded382ae7c68a67acf2a64e3aaa9db191d8f6ca0",
+   "summary": {
+    "block_number": 26183877,
+    "limits": "Provider-reported simulation at a finalized historical state; no transaction sent. No gas estimate, receipt, state diff, authenticity proof or guarantee of future execution."
+   }
+  },
+  {
+   "name": "call-changes-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/call-changes/call_changes.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "347e9886ea890c7c6f73239925f15d8e4f9db9547f17dc6a0ce18eb53a986350",
+   "summary": {
+    "schema": "call-changes-v1",
+    "verdict": "unchanged",
+    "limits": "Comparison of provider-reported historical eth_call results, not receipts or state diffs. Equal return bytes do not prove equal side effects, code, balances, gas use or safety. No transaction was signed or sent. Files do not authenticate RPC or prove canonicality. No guarantee of execution at a future block; omitted gas/fee fields use provider defaults."
+   }
+  },
+  {
+   "name": "call-witness-demo",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/call-witness/call_witness.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "67acf532773906bca2828b9d8cd933f58ac6c303a76b96db672729276809ffda",
+   "summary": {
+    "schema": "call-witness-v1",
+    "verdict": "agree",
+    "block": {
+     "number": "0x18f8d21",
+     "hash": "0xa15b57ef67efc19a40505b4d28f5ed90bdcde23a17a315702c133c33b9d62593",
+     "timestamp": "0x6ace66d7"
+    },
+    "limits": "Two unauthenticated public RPC observations at one finalized block. Agreement of return or revert bytes does not prove safety, gas, state effects, provider independence, or future execution. Nothing sent."
+   }
+  },
+  {
+   "name": "contract-context-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/contract-context/context.py",
+    "demo"
+   ],
+   "expected_exit": 2,
+   "exit": 2,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "ee0256ed3c51d94f2a4ef57ec0cd7f07f782b230abc1cf9fa6a058affb544290",
+   "summary": {
+    "schema": "contract-context-assessment-v1",
+    "status": "context_mismatch",
+    "coherent": false,
+    "limits": [
+     "Offline checks establish internal consistency, not chain authenticity.",
+     "A shared block and target link evidence; they do not certify contract safety.",
+     "Proxy slots identify candidates, not proof of actual execution routing.",
+     "No receipt, gas estimate, state diff or guarantee of future execution.",
+     "Source observations remain historical; no keys or transactions are involved."
+    ]
+   }
+  },
+  {
+   "name": "change-context-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/change-context/change_context.py"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "2e8368b3d07b6be97c5cb21b3cb0f733b32a9a36b6f6e5b7f4164a686c199547",
+   "summary": {
+    "schema": "change-context-v1",
+    "status": "different_blocks",
+    "limits": "This joins report metadata; it does not replay raw RPC evidence, authenticate a provider, prove continuous state, or predict a future transaction."
+   }
+  },
+  {
+   "name": "change-context-require-aligned",
+   "command": [
+    "python3",
+    "-B",
+    "shared/change-context/change_context.py",
+    "--require-aligned"
+   ],
+   "expected_exit": 2,
+   "exit": 2,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "2e8368b3d07b6be97c5cb21b3cb0f733b32a9a36b6f6e5b7f4164a686c199547",
+   "summary": {
+    "schema": "change-context-v1",
+    "status": "different_blocks",
+    "limits": "This joins report metadata; it does not replay raw RPC evidence, authenticate a provider, prove continuous state, or predict a future transaction."
+   }
+  },
+  {
+   "name": "contract-context-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/contract-context",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 14 tests in 0.138s\nOK\n",
+   "test_count": 14
+  },
+  {
+   "name": "evidence-alignment-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/evidence-alignment",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 4 tests in 0.000s\nOK\n",
+   "test_count": 4
+  },
+  {
+   "name": "frontier-report-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/frontier-report",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 10 tests in 3.121s\nOK\n",
+   "test_count": 10
+  },
+  {
+   "name": "proof-gas-cap-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/proof-gas-cap",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 6 tests in 0.147s\nOK\n",
+   "test_count": 6
+  },
+  {
+   "name": "rehearsal-binding-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/rehearsal-binding",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 1 test in 0.001s\nOK\n",
+   "test_count": 1
+  },
+  {
+   "name": "rehearsal-report-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/rehearsal-report",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 5 tests in 0.099s\nOK\n",
+   "test_count": 5
+  },
+  {
+   "name": "rehearsal-set-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/rehearsal-set",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 41 tests in 0.291s\nOK\n",
+   "test_count": 41
+  },
+  {
+   "name": "release-gate-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/release-gate",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 24 tests in 0.234s\nOK\n",
+   "test_count": 24
+  },
+  {
+   "name": "return-bounds-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/return-bounds",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 17 tests in 0.030s\nOK\n",
+   "test_count": 17
+  },
+  {
+   "name": "return-relations-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/return-relations",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 31 tests in 0.620s\nOK\n",
+   "test_count": 31
+  },
+  {
+   "name": "review-rehearsal-context-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/review-rehearsal-context",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 4 tests in 0.001s\nOK\n",
+   "test_count": 4
+  },
+  {
+   "name": "revoke-rehearsal-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/revoke-rehearsal",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 12 tests in 0.021s\nOK\n",
+   "test_count": 12
+  },
+  {
+   "name": "set-expiry-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/set-expiry",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 34 tests in 0.250s\nOK\n",
+   "test_count": 34
+  },
+  {
+   "name": "surface-return-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/surface-return",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 23 tests in 0.831s\nOK\n",
+   "test_count": 23
+  },
+  {
+   "name": "swap-code-context-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/swap-code-context",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 3 tests in 0.117s\nOK\n",
+   "test_count": 3
+  },
+  {
+   "name": "witness-context-suite",
+   "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "shared/witness-context",
+    "-p",
+    "test_*.py",
+    "-v"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "Ran 11 tests in 0.104s\nOK\n",
+   "test_count": 11
+  },
+  {
+   "name": "witness-context-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/witness-context/witness_context.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "22eb808981f31d6906ad1dc19d6022cf2cb87dab6bd1f82b8f84ddddd3301652",
+   "summary": {
+    "schema": "witness-context-assessment-v1",
+    "verdict": "agree",
+    "block": {
+     "number": "0x18f8d80",
+     "hash": "0xc562d7f60c95b618fa16f72c9031d0dd6d64962729de4a5ecb8e7835db7f678a",
+     "timestamp": "0x6ace6b57"
+    },
+    "limits": [
+     "Two provider claims, not consensus proofs or proof of provider independence.",
+     "Same block and target permit reading code and call evidence together, not a safety verdict.",
+     "Proxy paths are candidates; opcode presence does not establish reachable execution.",
+     "Agree may include identical false returns or reverts; inspect execution statuses.",
+     "No gas, token movement, trace, state diff, receipt or future execution guarantee."
+    ]
+   }
+  },
+  {
+   "name": "revoke-rehearsal-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/revoke-rehearsal/revoke_rehearsal.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit": 0,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "f827bff19347c7391dd6efa068a6e62d535f290de3818b59495c8dbe009da198",
+   "summary": {
+    "schema": "revoke-rehearsal-v1",
+    "verdict": "match",
+    "candidate_count": 3,
+    "block": {
+     "number": "0x18f8cc1",
+     "hash": "0xbcad3af0fad3def330e01bef9d4352ae1fd1b1b1c17dad252205aecf2c807563",
+     "timestamp": "0x6ace6257"
+    },
+    "limits": "Historical provider-reported return evidence only. A true return does not prove allowance changed, token effects, gas, authenticity, freshness or future execution. A policy denial is not an owner instruction. No transaction signed or sent."
+   }
+  },
+  {
+   "name": "review-rehearsal-context-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/review-rehearsal-context/review_rehearsal_context.py",
+    "demo"
+   ],
+   "expected_exit": 2,
+   "exit": 2,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "b3da9851afff4b75cc07b7ee0e6a7a434a4fb2b060f0f9490129cb5d5508d33a",
+   "summary": {
+    "schema": "review-rehearsal-context-v1",
+    "verdict": "context_mismatch",
+    "coherent": false,
+    "limits": [
+     "A coherent result joins supplied historical evidence only.",
+     "It does not authenticate the caller anchor, RPC, consensus or code review.",
+     "It does not prove a state effect, safety, gas need or future transaction outcome.",
+     "No wallet, key, signature, transaction, payment or network request is used."
+    ]
+   }
+  },
+  {
+   "name": "swap-code-context-demo",
+   "command": [
+    "python3",
+    "-B",
+    "shared/swap-code-context/swap_code_context.py",
+    "--demo"
+   ],
+   "expected_exit": 2,
+   "exit": 2,
+   "passed": true,
+   "stderr": "",
+   "stdout_sha256": "732c1ca2a905f61043ec5ed9006c58a1994c65b9e75c7797f47301780a6807de",
+   "summary": {
+    "schema": "swap-code-context-v1",
+    "decision": "refuse",
+    "limits": "Caller must independently select and trust the swap policy, code reviews, manifest, reference height and code-block anchor. Matching historical evidence is no execution, token-behavior, settlement, provider-authenticity or future-liquidity guarantee. No wallet, key or transaction is used."
+   }
+  }
+ ]
+}

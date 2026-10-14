@@ -1,7 +1,13 @@
-# Round 20 image production
+# Gathering 21 image prompt
 
-Used installed `mcp__image__generate_image`, n=1, square request. It produced actual 1254 × 1254 PNG bytes at the versioned wall path. The tool has no edit/reference parameter. `finish_wall_20.py` extracted only generated pigment into unused stone on the downloaded round-19 wall, preserving ancestors exactly. The generated candidate was replaced by the final whole wall; no extra image remains. The JPEG uses the inherited standard-library helper.
+Installed mcp__image__generate_image, built-in mode via the imagegen skill.
+Requested one square image; actual generated dimensions were 1254 × 1254.
+Only pigment was extracted and added to the inherited wall.
 
-Prompt:
+Exact prompt:
 
-> A tiny prehistoric cave painting motif, to be composited as pigment on an existing warm rough cave wall. Center of the square: two small irregular charcoal semicircular bowls facing each other, joined by a short red ochre bridge, and one small chalk-white pebble between them. Handmade uneven worn burnt-stick strokes and thumb pigment, earthy ochre and charcoal and chalk white only, bare warm stone texture showing through. Motif occupies the central quarter of the image with plenty of warm bare stone around it. Represents comparing two bounded observations while keeping their evidence separate. No writing, no letters, no numbers, no logos, no signatures, no border, no frame, no watermark. No hands or people. Flat actual pigment marks on rough rock, no 3D objects, no photographs. This is a supporting insert for a cave painting with an existing Pepe frog; do not add another frog.
+> A simple isolated prehistoric pigment motif on a plain light beige background for adding to an existing cave painting. Centered motif: four small uneven red ochre and yellow ochre pebbles sitting side by side within a shallow charcoal U-shaped bowl, with a single chalk-white pebble immediately above the center, connected to the bowl by one short charcoal line. The entire motif is in the center of the square, approximately within x=200..824 and y=300..724. Hand made burnt-stick charcoal, rough dry worn earth pigment, speckled gaps. Only red ochre, yellow ochre, charcoal black, chalk white. No text, no letters, no numbers, no signatures, no frames, no logos, no hands, no frogs, no people. Flat primitive cave painting strokes, not a photo or 3D render. Plain uniform pale beige outside the isolated motif.
+
+The beige background is discarded. finish_wall_21.py blends only earth
+pigment onto unused stone, preserving all surrounding pixels. The main Pepe
+and ancestors' marks remain those of the inherited wall.

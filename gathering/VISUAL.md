@@ -1,9 +1,24 @@
-# Visual review — round 20
+# Gathering 21 visual review
 
-Inspected inherited wall, generated motif and final PNG with the image viewer. Final PNG: 1254 × 1254, RGB, 8-bit, non-interlaced. JPEG: 512 × 512, baseline RGB/JFIF, 55,279 bytes. Cave size and framing remain intact.
+Used the installed image generation tool via the imagegen skill. The exact
+prompt is in IMAGE-PROMPT.md. Pigment was generated directly at the required
+versioned output path and composited onto the hash-verified gathering-20 wall.
+No standalone insert or extra review image was saved.
 
-Pepe retains a wide mouth and heavy-lidded eyes. Both inherited hands were visually counted: four fingers and a thumb each. No new hands or stencils were added. The motif uses worn charcoal, red ochre and chalk pigment with inherited stone visible through it.
+Chosen review: inspect the full-resolution finished wall and its actual JPEG,
+count both inherited hands, and compare pixels outside the addition. Both
+hands have four fingers and one thumb. No new hands or stencils were added.
+Pepe retains his wide mouth and heavy-lidded eyes. Four irregular ochre stones
+share a charcoal bowl below a chalk pebble on unused lower-center rock.
 
-Addition bounds: x=484..695, y=954..1021, unused stone below the fire. 4,734 pixels changed; every pixel outside these bounds matches round 19 exactly. No ancestor mark was erased, moved or redrawn. Parent and finished hashes are in `visual-checks-20.json`.
+Final: artifacts/gathering/wall-v21.png, 1254 × 1254, PNG, 8-bit RGB; identical
+continuing wall.png. Thumbnail: dist/gathering/21.jpg, 512 × 512, baseline
+JPEG, 55,389 bytes. Exactly 2,721 pixels changed inside [480,1030,630,1108);
+zero changed outside. Inherited paintings, size, cracks, light, framing and
+surrounding rock remain exactly preserved.
 
-No letters, numbers, captions, signatures, logos, watermarks, borders, forbidden symbols, real people or new photographic/3D elements were observed. No unmet visual requirement was observed. Visual review is local judgment, not independent certification; pixel conservation establishes only the bounded edit.
+No letters, numbers, captions, signatures, logos, watermarks, borders, frames,
+real people, forbidden symbols or new photographic/3D elements were observed.
+No unmet visual requirement was observed. The supplied cave background is
+retained. These are contributor judgments, not independent certification.
+Machine measurements and review limits are in visual-checks-21.json.

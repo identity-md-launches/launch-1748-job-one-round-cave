@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Measured Gathering",
+  "image": "https://api.imd.fun/artifacts/e016808458d96f2b0ea15c420aa9747a51a9a26c281ca7c2783ee9c52f241075",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 21
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Proof and Gas Budget Context"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Four stones share one bowl only when their evidence fits the same place and time."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }

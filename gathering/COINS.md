@@ -1,3 +1,7 @@
 none
 
-The four tools operate on the real ZTO/IMD pool, token permissions, executable code and historical calls. Their evidence checks work without issuing an asset. ZTO first and IMD second supply every coin-related input; a new coin or hook adds no necessary function. No coin order or deployment order is requested.
+The four lines read the real ZTO/IMD pool, discover standard token permissions,
+verify historical executable code and rehearse exact calls. Shared evidence
+tools work without issuing an asset. ZTO first and IMD second provide every
+coin-related input. No function requires a new coin or v4 hook; no coin order
+or contract deployment order is requested.

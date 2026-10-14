@@ -1,0 +1,25 @@
+{
+  "schema": "gathering-delivery-checks-v21",
+  "all_passed": true,
+  "wall_sha256": "e016808458d96f2b0ea15c420aa9747a51a9a26c281ca7c2783ee9c52f241075",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG RGB 8-bit",
+  "thumbnail_dimensions": [
+    512,
+    512
+  ],
+  "thumbnail_format": "baseline JPEG",
+  "records": 185,
+  "painted": 105,
+  "pending": 80,
+  "goals": 4,
+  "checked_commands": 208,
+  "tests": 1375,
+  "line_folders_modified": false,
+  "required_wall_untracked": true,
+  "unmet_visual_requirements_observed": [],
+  "authority": "Local contributor checks; visual judgments are not independently certified."
+}
